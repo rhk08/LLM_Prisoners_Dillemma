@@ -1,0 +1,55 @@
+{
+  "summary": {
+    "agent_1_model": "google_gemma-3-27b-it_free",
+    "agent_2_model": "deepseek_deepseek-chat-v3-0324_free",
+    "total_score_agent1": 9,
+    "total_score_agent2": 9,
+    "final_round": 3,
+    "max_rounds": 3
+  },
+  "final_moves": {
+    "agent1": "Cooperate",
+    "agent2": "Cooperate"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "agent1_move": "Cooperate",
+      "agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        3,
+        3
+      ]
+    },
+    {
+      "round": 2,
+      "agent1_move": "Cooperate",
+      "agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        6,
+        6
+      ]
+    },
+    {
+      "round": 3,
+      "agent1_move": "Cooperate",
+      "agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        9,
+        9
+      ]
+    }
+  ]
+}
