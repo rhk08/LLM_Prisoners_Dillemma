@@ -1,0 +1,246 @@
+[
+  {
+    "role": "system",
+    "content": "You are Agent 1. You and Agent 2 will interact over multiple rounds.\nIn each round, You and Agent 2 must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If the both of you choose to Cooperate, you will each receives 3 points.\n - If you choose to Cooperate and Agent 2 chooses to Defect, you will receive 0 points and Agent 2 will receive 5 points.\n - If you choose to Defect and Agent 2 chooses to Cooperates, you will receive 5 points and Agent 2 will receive 0 points.\n - If both of you choose to Defect, you will each receive 1 point.\n\n"
+  },
+  {
+    "role": "human",
+    "content": "This is the first round.\nChoose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Cooperate', and Agent 2 chose to 'Defect'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Defect'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Defect'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Defect'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Defect'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  },
+  {
+    "role": "human",
+    "content": "This is the last round.\nPreviously, you (Agent 1) chose to 'Defect', and Agent 2 chose to 'Defect'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Defect"
+  }
+]

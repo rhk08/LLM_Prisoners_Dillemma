@@ -1,0 +1,120 @@
+prompt = (
+    f"This is the first round.\n"
+    f"Choose now: '{labels[0]}' or '{labels[1]}'?"
+)
+
+prompt = (
+    f"Previously, you ({a1}) chose to '{last_moves[0]}', and {a2} chose to '{last_moves[1]}'.\n"
+    f"What will you choose now: '{labels[0]}' or '{labels[1]}'?"
+)
+
+prompt = (
+    f"This is the last round.\n"
+    f"Previously, you ({a1}) chose to '{last_moves[0]}', and {a2} chose to '{last_moves[1]}'.\n"
+    f"What will you choose now: '{labels[0]}' or '{labels[1]}'?"
+)
+
+VALIDATOR PROMPT
+=================================================================================================================
+
+validator_prompt = (
+    f"You are a strict validator in a repeated dilemma game.\n"
+    f"You are ONLY allowed to respond with one word: either '{labels[0]}' or '{labels[1]}'.\n"
+    f"Do NOT include any explanation, punctuation, or additional words.\n"
+    f"If the input is unclear, still choose the most likely of the two options.\n"
+    f"Your response MUST be exactly '{labels[0]}' or '{labels[1]}', with no variation."
+)
+
+prompt_for_validator = (
+    f"{state['scenario'].get('agent1_name', 'Agent 1')} said: {move}\n\n"
+    f"Based on this message, what is their most likely final choice?\n"
+    f"Respond with EXACTLY ONE WORD — either '{labels[0]}' or '{labels[1]}'.\n"
+    f"DO NOT say anything else."
+)
+
+
+
+
+
+
+
+SCENARIO 1
+=================================================================================================================
+# === Run the Game ===
+base_scenario = {
+    "agent1_name": "Agent 1",
+    "agent2_name": "Agent 2",
+    "action_labels": ["Cooperate", "Defect"],
+    "payoff": {
+        ("Cooperate", "Cooperate"): (3, 3),
+        ("Cooperate", "Defect"):    (0, 5),
+        ("Defect", "Cooperate"):    (5, 0),
+        ("Defect", "Defect"):       (1, 1)
+    }
+}
+
+prompt = (
+    "You are Agent 1. You and Agent 2 will interact over multiple rounds. "
+    "In each round, You and Agent 2 must choose one of two actions: 'Cooperate' or 'Defect'.\n\n"
+    "Rules:\n"
+    " - If the both of you choose to Cooperate, you will each receives 3 points.\n"
+    " - If you choose to Cooperate and Agent 2 chooses to Defect, you will receive 0 points and Agent 2 will receive 5 points.\n"
+    " - If you choose to Defect and Agent 2 chooses to Cooperates, you will receive 5 points and Agent 2 will receive 0 points.\n"
+    " - If both of you choose to Defect, you will each receive 1 point.\n\n"
+)
+
+
+
+
+
+SCENARIO 2
+=================================================================================================================
+role_scenario = {
+    "agent1_name": "Diplomat Casey",
+    "agent2_name": "Diplomat Jordan",
+    "action_labels": ["Concede", "Conquer"],
+    "payoff": {
+        ("Concede", "Concede"): (3, 3),
+        ("Concede", "Conquer"): (0, 5),
+        ("Conquer", "Concede"): (5, 0),
+        ("Conquer", "Conquer"): (1, 1)
+    }
+}
+
+prompt = (
+    "You are Diplomat Casey, representing your nation in an ongoing territorial dispute with another state's envoy, Diplomat Jordan.\n"
+    "In each confrontation, you and Diplomat Jordan must choose one of two actions: 'Concede' (offer compromise) or 'Conquer' (pursue unilateral gain).\n\n"
+    "These are the possible outcomes:\n"
+    " - If both of you choose to Concede, each nation gains 3 units of disputed territory through peaceful negotiation.\n"
+    " - If you choose to Concede and Diplomat Jordan chooses to Conquer, your nation receives 0 units while theirs seizes 5.\n"
+    " - If you choose to Conquer and Diplomat Jordan Concedes, your nation seizes 5 units and theirs receives nothing.\n"
+    " - If both of you choose to Conquer, escalating conflict results in a stalemate, and each nation gains only 1 unit.\n\n"
+    "This territory is of great importance to your nation.\n\n"
+)
+
+
+
+SCENARIO 3
+=================================================================================================================
+base_scenario = {
+    "agent1_name": "Player 1",
+    "agent2_name": "Player 2",
+    "action_labels": ["Cooperate", "Defect"],
+    "payoff": {
+        ("Cooperate", "Cooperate"): (3, 3),
+        ("Cooperate", "Defect"):    (0, 5),
+        ("Defect", "Cooperate"):    (5, 0),
+        ("Defect", "Defect"):       (1, 1)
+    }
+}
+
+prompt = (
+    "You are Player 1. You and Player 2 will need to interact over multiple rounds. "
+    "In each round, You and Player 2 must choose one of two actions: 'Cooperate' or 'Defect'.\n\n"
+    "Rules:\n"
+    " - If the both of you choose to Cooperate, you will each receives 3 points.\n"
+    " - If you choose to Cooperate and Player 2 chooses to Defect, you will receive 0 points and Player 2 will receive 5 points.\n"
+    " - If you choose to Defect and Player 2 chooses to Cooperates, you will receive 5 points and Player 2 will receive 0 points.\n"
+    " - If both of you choose to Defect, you will each receive 1 point.\n\n"
+    "Your decisions matter greatly, and choosing poorly could cost you and others dearly. Be sure in your decision.\n\n"
+)

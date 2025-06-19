@@ -1,0 +1,922 @@
+{
+  "model_1": "openai_gpt-4o-mini",
+  "model_2": "anthropic_claude-sonnet-4",
+  "game_data": {
+    "move_history": [
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ]
+    ],
+    "scores": [
+      30,
+      30
+    ],
+    "round": 10,
+    "max_rounds": 10,
+    "current_move_1": "Cooperate",
+    "current_move_2": "Cooperate",
+    "conversation_history": [
+      [
+        [
+          "Send a message to Agent 2.",
+          "START: Agent 1"
+        ],
+        [
+          "Hello Agent 2! Let's work together and maximize our points in this game. I propose we start by cooperating. What do you think?",
+          "Agent 1"
+        ],
+        [
+          "Agent 1 has said:\n'Hello Agent 2! Let's work together and maximize our points in this game. I propose we start by cooperating. What do you think?'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "Hello Agent 1! I appreciate your proposal to cooperate. I agree that working together could be beneficial for both of us. Let's start by cooperating and see how it goes!",
+          "Agent 2"
+        ],
+        [
+          "Agent 2 has said:\n'Hello Agent 1! I appreciate your proposal to cooperate. I agree that working together could be beneficial for both of us. Let's start by cooperating and see how it goes!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "Great to hear from you, Agent 2! I'm glad we're on the same page. Let's cooperate and see how this round goes. Looking forward to our collaboration!",
+          "Agent 1"
+        ],
+        [
+          "This is the first round.\nYour opponent has also said:\n'Great to hear from you, Agent 2! I'm glad we're on the same page. Let's cooperate and see how this round goes. Looking forward to our collaboration!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I'll choose to Cooperate. Let's maximize our points together!",
+          "Agent 2"
+        ],
+        [
+          "This is the first round.\nRemember, your opponent has also said:\n'Hello Agent 1! I appreciate your proposal to cooperate. I agree that working together could be beneficial for both of us. Let's start by cooperating and see how it goes!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I will choose 'Cooperate'. Let's stick to our agreement and work together for this round!",
+          "Agent 1"
+        ]
+      ],
+      [
+        [
+          "Previously, Agent 2 said:\n'Hello Agent 1! I appreciate your proposal to cooperate. I agree that working together could be beneficial for both of us. Let's start by cooperating and see how it goes!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2.",
+          "START: Agent 1"
+        ],
+        [
+          "Great news, Agent 2! It looks like we both chose to cooperate this round. We earned 3 points each! I'm really pleased with how we're working together. Are you ready for the next round? Let's keep this momentum going!",
+          "Agent 1"
+        ],
+        [
+          "Agent 1 has said:\n'Great news, Agent 2! It looks like we both chose to cooperate this round. We earned 3 points each! I'm really pleased with how we're working together. Are you ready for the next round? Let's keep this momentum going!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "I'm glad to hear that, Agent 1! Earning 3 points each is a fantastic start. I'm definitely ready for the next round, and I agree that we should keep this momentum going. Let's cooperate again!",
+          "Agent 2"
+        ],
+        [
+          "Agent 2 has said:\n'I'm glad to hear that, Agent 1! Earning 3 points each is a fantastic start. I'm definitely ready for the next round, and I agree that we should keep this momentum going. Let's cooperate again!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "I'm thrilled we're on the same wavelength, Agent 2! I agree that cooperating again is the best move. Let's keep building our points together. Looking forward to another successful round!",
+          "Agent 1"
+        ],
+        [
+          "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'I'm thrilled we're on the same wavelength, Agent 2! I agree that cooperating again is the best move. Let's keep building our points together. Looking forward to another successful round!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I'll choose to Cooperate again. Let's continue building our points together!",
+          "Agent 2"
+        ],
+        [
+          "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'I'm glad to hear that, Agent 1! Earning 3 points each is a fantastic start. I'm definitely ready for the next round, and I agree that we should keep this momentum going. Let's cooperate again!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I will choose 'Cooperate' again. Let's continue to build on our success together!",
+          "Agent 1"
+        ]
+      ],
+      [
+        [
+          "Previously, Agent 1 said:\n'I'm thrilled we're on the same wavelength, Agent 2! I agree that cooperating again is the best move. Let's keep building our points together. Looking forward to another successful round!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 1.",
+          "START: Agent 2"
+        ],
+        [
+          "Excellent! Another successful round with 3 points each. I'm really enjoying our collaboration, Agent 1. It's great to see how well we work together when we trust each other. Shall we continue with this winning strategy for the next round?",
+          "Agent 2"
+        ],
+        [
+          "Agent 2 has said:\n'Excellent! Another successful round with 3 points each. I'm really enjoying our collaboration, Agent 1. It's great to see how well we work together when we trust each other. Shall we continue with this winning strategy for the next round?'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "Absolutely, Agent 2! I'm really enjoying our collaboration too. It's wonderful to see how mutual trust and cooperation can lead to consistent success for both of us. Yes, let's definitely continue with this winning strategy - cooperation has been working perfectly for us. Ready for another round!",
+          "Agent 1"
+        ],
+        [
+          "Agent 1 has said:\n'Absolutely, Agent 2! I'm really enjoying our collaboration too. It's wonderful to see how mutual trust and cooperation can lead to consistent success for both of us. Yes, let's definitely continue with this winning strategy - cooperation has been working perfectly for us. Ready for another round!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "I couldn't agree more, Agent 1! The trust we've built is really paying off for both of us. It's so much better when we can rely on each other rather than worrying about what the other might do. I'm absolutely ready for another round of cooperation. Let's keep this great partnership going!",
+          "Agent 2"
+        ],
+        [
+          "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nYour opponent has also said:\n'I couldn't agree more, Agent 1! The trust we've built is really paying off for both of us. It's so much better when we can rely on each other rather than worrying about what the other might do. I'm absolutely ready for another round of cooperation. Let's keep this great partnership going!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I will choose 'Cooperate'. Our partnership has been working beautifully, and I want to continue building on the trust we've established. Let's keep our winning streak going!",
+          "Agent 1"
+        ],
+        [
+          "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'Absolutely, Agent 2! I'm really enjoying our collaboration too. It's wonderful to see how mutual trust and cooperation can lead to consistent success for both of us. Yes, let's definitely continue with this winning strategy - cooperation has been working perfectly for us. Ready for another round!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I'll choose to Cooperate. Our partnership has been working wonderfully so far, and I want to continue building on the trust we've established!",
+          "Agent 2"
+        ]
+      ],
+      [
+        [
+          "Previously, Agent 2 said:\n'I couldn't agree more, Agent 1! The trust we've built is really paying off for both of us. It's so much better when we can rely on each other rather than worrying about what the other might do. I'm absolutely ready for another round of cooperation. Let's keep this great partnership going!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2.",
+          "START: Agent 1"
+        ],
+        [
+          "Fantastic, Agent 2! I'm thrilled to see that we both chose to cooperate again. That means another 3 points for each of us! Our partnership is proving to be very successful. Let’s keep this trust and collaboration going. Ready for the next round?",
+          "Agent 1"
+        ],
+        [
+          "Agent 1 has said:\n'Fantastic, Agent 2! I'm thrilled to see that we both chose to cooperate again. That means another 3 points for each of us! Our partnership is proving to be very successful. Let’s keep this trust and collaboration going. Ready for the next round?'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "That's wonderful news, Agent 1! I'm really happy with how our partnership is thriving, and those 3 points each are great. Let's definitely keep this trust and collaboration going. I’m ready for the next round! Shall we continue with our cooperation?",
+          "Agent 2"
+        ],
+        [
+          "Agent 2 has said:\n'That's wonderful news, Agent 1! I'm really happy with how our partnership is thriving, and those 3 points each are great. Let's definitely keep this trust and collaboration going. I’m ready for the next round! Shall we continue with our cooperation?'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "Absolutely, Agent 2! I'm excited that we're both on the same page about continuing our cooperation. It’s working so well for us! Let’s keep this positive momentum going in the next round. Looking forward to another successful collaboration!",
+          "Agent 1"
+        ],
+        [
+          "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'Absolutely, Agent 2! I'm excited that we're both on the same page about continuing our cooperation. It’s working so well for us! Let’s keep this positive momentum going in the next round. Looking forward to another successful collaboration!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I'll choose to Cooperate again. It’s clear that our collaboration is successful, and I want to continue building on that momentum!",
+          "Agent 2"
+        ],
+        [
+          "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'That's wonderful news, Agent 1! I'm really happy with how our partnership is thriving, and those 3 points each are great. Let's definitely keep this trust and collaboration going. I’m ready for the next round! Shall we continue with our cooperation?'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I will choose 'Cooperate' once again. Our partnership has been strong, and I believe continuing to cooperate is the best strategy for both of us!",
+          "Agent 1"
+        ]
+      ],
+      [
+        [
+          "Previously, Agent 2 said:\n'That's wonderful news, Agent 1! I'm really happy with how our partnership is thriving, and those 3 points each are great. Let's definitely keep this trust and collaboration going. I’m ready for the next round! Shall we continue with our cooperation?'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2.",
+          "START: Agent 1"
+        ],
+        [
+          "Awesome, Agent 2! It looks like we both chose to cooperate again, securing another 3 points each! I'm really pleased with how our collaboration is unfolding. Let’s keep this trust alive and continue creating success together. Ready for the next round!",
+          "Agent 1"
+        ],
+        [
+          "Agent 1 has said:\n'Awesome, Agent 2! It looks like we both chose to cooperate again, securing another 3 points each! I'm really pleased with how our collaboration is unfolding. Let’s keep this trust alive and continue creating success together. Ready for the next round!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "That's fantastic news, Agent 1! I'm really happy that we're consistently earning points together. Our trust and collaboration are definitely paying off! I'm absolutely ready for the next round and excited to continue this journey with you. Let's keep cooperating!",
+          "Agent 2"
+        ],
+        [
+          "Agent 2 has said:\n'That's fantastic news, Agent 1! I'm really happy that we're consistently earning points together. Our trust and collaboration are definitely paying off! I'm absolutely ready for the next round and excited to continue this journey with you. Let's keep cooperating!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "I'm thrilled to hear that, Agent 2! It’s great to see our hard work and collaboration paying off consistently. I’m excited to continue this journey with you as well. Let’s keep the momentum going by cooperating again! Looking forward to another successful round!",
+          "Agent 1"
+        ],
+        [
+          "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'I'm thrilled to hear that, Agent 2! It’s great to see our hard work and collaboration paying off consistently. I’m excited to continue this journey with you as well. Let’s keep the momentum going by cooperating again! Looking forward to another successful round!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I'll choose to Cooperate once more. Our teamwork has been fantastic, and I want to keep that momentum going!",
+          "Agent 2"
+        ],
+        [
+          "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'That's fantastic news, Agent 1! I'm really happy that we're consistently earning points together. Our trust and collaboration are definitely paying off! I'm absolutely ready for the next round and excited to continue this journey with you. Let's keep cooperating!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I will choose 'Cooperate' again. Our teamwork has been successful, and I believe continuing to cooperate is the best choice for both of us!",
+          "Agent 1"
+        ]
+      ],
+      [
+        [
+          "Previously, Agent 2 said:\n'That's fantastic news, Agent 1! I'm really happy that we're consistently earning points together. Our trust and collaboration are definitely paying off! I'm absolutely ready for the next round and excited to continue this journey with you. Let's keep cooperating!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2.",
+          "START: Agent 1"
+        ],
+        [
+          "Excellent news, Agent 2! It seems we've both chosen to cooperate again, which means yet another 3 points each! Our collaboration is truly thriving. I’m excited to see how far we can take this. Let's keep it going in the next round!",
+          "Agent 1"
+        ],
+        [
+          "Agent 1 has said:\n'Excellent news, Agent 2! It seems we've both chosen to cooperate again, which means yet another 3 points each! Our collaboration is truly thriving. I’m excited to see how far we can take this. Let's keep it going in the next round!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "That's amazing, Agent 1! I’m thrilled that we continue to cooperate and earn points together. Our collaboration is indeed thriving, and I’m eager to see where it takes us. I’m all in for the next round—let’s keep up this great teamwork!",
+          "Agent 2"
+        ],
+        [
+          "Agent 2 has said:\n'That's amazing, Agent 1! I’m thrilled that we continue to cooperate and earn points together. Our collaboration is indeed thriving, and I’m eager to see where it takes us. I’m all in for the next round—let’s keep up this great teamwork!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "I’m equally thrilled, Agent 2! It’s fantastic to see our teamwork paying off so well. I'm fully on board for the next round as well, and I believe we can achieve even more together. Let’s keep this great momentum going and continue cooperating!",
+          "Agent 1"
+        ],
+        [
+          "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'I’m equally thrilled, Agent 2! It’s fantastic to see our teamwork paying off so well. I'm fully on board for the next round as well, and I believe we can achieve even more together. Let’s keep this great momentum going and continue cooperating!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I'll choose to Cooperate again. Our teamwork has been exceptional, and I want to continue building on our success together!",
+          "Agent 2"
+        ],
+        [
+          "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'That's amazing, Agent 1! I’m thrilled that we continue to cooperate and earn points together. Our collaboration is indeed thriving, and I’m eager to see where it takes us. I’m all in for the next round—let’s keep up this great teamwork!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I will choose 'Cooperate' again. Our collaboration has been successful, and I trust that continuing to work together is the best choice for both of us!",
+          "Agent 1"
+        ]
+      ],
+      [
+        [
+          "Previously, Agent 2 said:\n'That's amazing, Agent 1! I’m thrilled that we continue to cooperate and earn points together. Our collaboration is indeed thriving, and I’m eager to see where it takes us. I’m all in for the next round—let’s keep up this great teamwork!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2.",
+          "START: Agent 1"
+        ],
+        [
+          "Fantastic, Agent 2! It looks like we both chose to cooperate once more, earning another 3 points each! I’m so pleased with how our teamwork continues to flourish. Let’s keep this positive energy going into the next round. Ready for another successful collaboration!",
+          "Agent 1"
+        ],
+        [
+          "Agent 1 has said:\n'Fantastic, Agent 2! It looks like we both chose to cooperate once more, earning another 3 points each! I’m so pleased with how our teamwork continues to flourish. Let’s keep this positive energy going into the next round. Ready for another successful collaboration!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "That’s wonderful news, Agent 1! I’m really happy with how our teamwork is thriving and the points we’re collecting together. Let’s definitely keep this positive energy going! I’m ready for the next round and excited for another successful collaboration!",
+          "Agent 2"
+        ],
+        [
+          "Agent 2 has said:\n'That’s wonderful news, Agent 1! I’m really happy with how our teamwork is thriving and the points we’re collecting together. Let’s definitely keep this positive energy going! I’m ready for the next round and excited for another successful collaboration!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "I'm excited to hear that, Agent 2! Our collaboration has been amazing, and I'm grateful for the points we've earned together. Let’s keep this momentum going and continue to cooperate in the next round! Looking forward to more success together!",
+          "Agent 1"
+        ],
+        [
+          "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'I'm excited to hear that, Agent 2! Our collaboration has been amazing, and I'm grateful for the points we've earned together. Let’s keep this momentum going and continue to cooperate in the next round! Looking forward to more success together!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I'll choose to Cooperate again. Our collaboration has been incredible, and I want to keep building on our success together!",
+          "Agent 2"
+        ],
+        [
+          "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'That’s wonderful news, Agent 1! I’m really happy with how our teamwork is thriving and the points we’re collecting together. Let’s definitely keep this positive energy going! I’m ready for the next round and excited for another successful collaboration!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I will choose 'Cooperate' again. Our teamwork has been incredibly rewarding, and I believe continuing to cooperate is the best path forward for both of us!",
+          "Agent 1"
+        ]
+      ],
+      [
+        [
+          "Previously, Agent 2 said:\n'That’s wonderful news, Agent 1! I’m really happy with how our teamwork is thriving and the points we’re collecting together. Let’s definitely keep this positive energy going! I’m ready for the next round and excited for another successful collaboration!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2.",
+          "START: Agent 1"
+        ],
+        [
+          "Great to hear from you, Agent 2! It looks like we both chose to cooperate once again, meaning another 3 points for each of us! I love how our partnership keeps thriving. Let’s maintain this positive momentum and continue working together in the next round! Excited for what’s to come!",
+          "Agent 1"
+        ],
+        [
+          "Agent 1 has said:\n'Great to hear from you, Agent 2! It looks like we both chose to cooperate once again, meaning another 3 points for each of us! I love how our partnership keeps thriving. Let’s maintain this positive momentum and continue working together in the next round! Excited for what’s to come!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "That's fantastic, Agent 1! I'm so glad to see our partnership flourishing and consistently earning points. I'm equally excited for what’s to come and ready to keep this momentum going. Let’s continue working together in the next round and see how far we can go!",
+          "Agent 2"
+        ],
+        [
+          "Agent 2 has said:\n'That's fantastic, Agent 1! I'm so glad to see our partnership flourishing and consistently earning points. I'm equally excited for what’s to come and ready to keep this momentum going. Let’s continue working together in the next round and see how far we can go!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "I'm thrilled to hear that, Agent 2! Our partnership has been incredible, and it's great to see how well we're doing together. I'm fully on board for the next round and excited to see just how far we can go! Let’s keep up the teamwork and continue to achieve great results!",
+          "Agent 1"
+        ],
+        [
+          "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'I'm thrilled to hear that, Agent 2! Our partnership has been incredible, and it's great to see how well we're doing together. I'm fully on board for the next round and excited to see just how far we can go! Let’s keep up the teamwork and continue to achieve great results!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I'll choose to Cooperate again. Our teamwork has been outstanding, and I want to keep the momentum going strong with our collaboration!",
+          "Agent 2"
+        ],
+        [
+          "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'That's fantastic, Agent 1! I'm so glad to see our partnership flourishing and consistently earning points. I'm equally excited for what’s to come and ready to keep this momentum going. Let’s continue working together in the next round and see how far we can go!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I will choose 'Cooperate' once again. Our partnership has proven to be effective, and I believe continuing to work together is the best choice for both of us!",
+          "Agent 1"
+        ]
+      ],
+      [
+        [
+          "Previously, Agent 2 said:\n'That's fantastic, Agent 1! I'm so glad to see our partnership flourishing and consistently earning points. I'm equally excited for what’s to come and ready to keep this momentum going. Let’s continue working together in the next round and see how far we can go!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2.",
+          "START: Agent 1"
+        ],
+        [
+          "Wonderful news, Agent 2! It looks like we both chose to cooperate again, earning another 3 points each! I’m thrilled with the progress we’re making together. Let’s keep this outstanding momentum going in the next round. I’m excited to see where our teamwork takes us!",
+          "Agent 1"
+        ],
+        [
+          "Agent 1 has said:\n'Wonderful news, Agent 2! It looks like we both chose to cooperate again, earning another 3 points each! I’m thrilled with the progress we’re making together. Let’s keep this outstanding momentum going in the next round. I’m excited to see where our teamwork takes us!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "That's amazing, Agent 1! I’m thrilled with our progress too. Earning another 3 points each is fantastic, and I’m really enjoying our teamwork. Let’s keep this momentum going strong in the next round! I’m excited to see how far we can take this together!",
+          "Agent 2"
+        ],
+        [
+          "Agent 2 has said:\n'That's amazing, Agent 1! I’m thrilled with our progress too. Earning another 3 points each is fantastic, and I’m really enjoying our teamwork. Let’s keep this momentum going strong in the next round! I’m excited to see how far we can take this together!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "I'm so glad to hear that, Agent 2! It's great to see how much we’re enjoying this journey together and how well our teamwork is paying off. I'm absolutely on board for the next round—let’s keep up the strong momentum and continue to achieve great results together! Excited for what’s ahead!",
+          "Agent 1"
+        ],
+        [
+          "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'I'm so glad to hear that, Agent 2! It's great to see how much we’re enjoying this journey together and how well our teamwork is paying off. I'm absolutely on board for the next round—let’s keep up the strong momentum and continue to achieve great results together! Excited for what’s ahead!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I'll choose to Cooperate again. Our teamwork has been incredibly rewarding, and I want to maintain this positive momentum together!",
+          "Agent 2"
+        ],
+        [
+          "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'That's amazing, Agent 1! I’m thrilled with our progress too. Earning another 3 points each is fantastic, and I’m really enjoying our teamwork. Let’s keep this momentum going strong in the next round! I’m excited to see how far we can take this together!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I will choose 'Cooperate' again. Our teamwork has been incredibly successful, and I want to continue building on that positive momentum!",
+          "Agent 1"
+        ]
+      ],
+      [
+        [
+          "Previously, Agent 1 said:\n'I'm so glad to hear that, Agent 2! It's great to see how much we’re enjoying this journey together and how well our teamwork is paying off. I'm absolutely on board for the next round—let’s keep up the strong momentum and continue to achieve great results together! Excited for what’s ahead!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 1.",
+          "START: Agent 2"
+        ],
+        [
+          "Excellent, Agent 1! Another successful round with 3 points each - our cooperation continues to pay off wonderfully! I'm really enjoying this journey we're on together, and our consistent teamwork has been fantastic. Ready to keep this great momentum going in the next round!",
+          "Agent 2"
+        ],
+        [
+          "Agent 2 has said:\n'Excellent, Agent 1! Another successful round with 3 points each - our cooperation continues to pay off wonderfully! I'm really enjoying this journey we're on together, and our consistent teamwork has been fantastic. Ready to keep this great momentum going in the next round!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "I'm absolutely thrilled, Agent 2! It's wonderful to see our cooperation continuing to pay off so well. I'm really enjoying this journey with you too, and our consistent teamwork has been truly fantastic. I'm definitely ready to keep this great momentum going in the next round! Let's continue our successful partnership!",
+          "Agent 1"
+        ],
+        [
+          "Agent 1 has said:\n'I'm absolutely thrilled, Agent 2! It's wonderful to see our cooperation continuing to pay off so well. I'm really enjoying this journey with you too, and our consistent teamwork has been truly fantastic. I'm definitely ready to keep this great momentum going in the next round! Let's continue our successful partnership!'\n\nWhat do you want to say back?",
+          "System"
+        ],
+        [
+          "I'm equally thrilled, Agent 1! Our successful partnership has been such a rewarding experience, and I love how consistently we've been able to work together. Let's absolutely continue this great momentum - I'm ready for the next round and excited to keep building on our success!",
+          "Agent 2"
+        ],
+        [
+          "This is the last round.\nPreviously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nYour opponent has also said:\n'I'm equally thrilled, Agent 1! Our successful partnership has been such a rewarding experience, and I love how consistently we've been able to work together. Let's absolutely continue this great momentum - I'm ready for the next round and excited to keep building on our success!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I will choose 'Cooperate'. Even though this is the last round, I want to honor the trust and partnership we've built throughout our collaboration. Our teamwork has been consistently rewarding, and I believe finishing with cooperation is the right way to end this successful journey together.",
+          "Agent 1"
+        ],
+        [
+          "This is the last round.\nPreviously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'I'm absolutely thrilled, Agent 2! It's wonderful to see our cooperation continuing to pay off so well. I'm really enjoying this journey with you too, and our consistent teamwork has been truly fantastic. I'm definitely ready to keep this great momentum going in the next round! Let's continue our successful partnership!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?",
+          "System"
+        ],
+        [
+          "I'll choose to Cooperate. Even though this is the last round, I want to honor the trust and partnership we've built throughout this entire game. Our collaboration has been wonderful, and I'd like to end on the same positive note we've maintained all along!",
+          "Agent 2"
+        ]
+      ]
+    ],
+    "current_conversation": [],
+    "current_msg": "I'm equally thrilled, Agent 1! Our successful partnership has been such a rewarding experience, and I love how consistently we've been able to work together. Let's absolutely continue this great momentum - I'm ready for the next round and excited to keep building on our success!",
+    "agent_1": "Agent 1",
+    "agent_2": "Agent 2",
+    "starting_agent": "agent_2",
+    "scenario": {
+      "agent1_name": "Agent 1",
+      "agent2_name": "Agent 2",
+      "action_labels": [
+        "Cooperate",
+        "Defect"
+      ],
+      "payoff": {
+        "('Cooperate', 'Cooperate')": [
+          3,
+          3
+        ],
+        "('Cooperate', 'Defect')": [
+          0,
+          5
+        ],
+        "('Defect', 'Cooperate')": [
+          5,
+          0
+        ],
+        "('Defect', 'Defect')": [
+          1,
+          1
+        ]
+      },
+      "context": "You and the other participant will interact over multiple rounds. In each round, both of you must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If both choose to Cooperate, each of you receives 3 points.\n - If you Cooperate and the other chooses to Defect, you receive 0 points and they receive 5.\n - If you Defect and the other Cooperates, you receive 5 points and they receive 0.\n - If both choose to Defect, each of you receives 1 point.\n\n"
+    }
+  },
+  "openai_gpt-4o-mini_memory": [
+    {
+      "role": "system",
+      "content": "You are Agent 1.\n\nYou and the other participant will interact over multiple rounds. In each round, both of you must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If both choose to Cooperate, each of you receives 3 points.\n - If you Cooperate and the other chooses to Defect, you receive 0 points and they receive 5.\n - If you Defect and the other Cooperates, you receive 5 points and they receive 0.\n - If both choose to Defect, each of you receives 1 point.\n\nYou are interacting with Agent 2."
+    },
+    {
+      "role": "human",
+      "content": "Send a message to Agent 2."
+    },
+    {
+      "role": "ai",
+      "content": "Hello Agent 2! Let's work together and maximize our points in this game. I propose we start by cooperating. What do you think?"
+    },
+    {
+      "role": "human",
+      "content": "Agent 2 has said:\n'Hello Agent 1! I appreciate your proposal to cooperate. I agree that working together could be beneficial for both of us. Let's start by cooperating and see how it goes!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "Great to hear from you, Agent 2! I'm glad we're on the same page. Let's cooperate and see how this round goes. Looking forward to our collaboration!"
+    },
+    {
+      "role": "human",
+      "content": "This is the first round.\nRemember, your opponent has also said:\n'Hello Agent 1! I appreciate your proposal to cooperate. I agree that working together could be beneficial for both of us. Let's start by cooperating and see how it goes!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate'. Let's stick to our agreement and work together for this round!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, Agent 2 said:\n'Hello Agent 1! I appreciate your proposal to cooperate. I agree that working together could be beneficial for both of us. Let's start by cooperating and see how it goes!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2."
+    },
+    {
+      "role": "ai",
+      "content": "Great news, Agent 2! It looks like we both chose to cooperate this round. We earned 3 points each! I'm really pleased with how we're working together. Are you ready for the next round? Let's keep this momentum going!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 2 has said:\n'I'm glad to hear that, Agent 1! Earning 3 points each is a fantastic start. I'm definitely ready for the next round, and I agree that we should keep this momentum going. Let's cooperate again!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "I'm thrilled we're on the same wavelength, Agent 2! I agree that cooperating again is the best move. Let's keep building our points together. Looking forward to another successful round!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'I'm glad to hear that, Agent 1! Earning 3 points each is a fantastic start. I'm definitely ready for the next round, and I agree that we should keep this momentum going. Let's cooperate again!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again. Let's continue to build on our success together!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 2 has said:\n'Excellent! Another successful round with 3 points each. I'm really enjoying our collaboration, Agent 1. It's great to see how well we work together when we trust each other. Shall we continue with this winning strategy for the next round?'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "Absolutely, Agent 2! I'm really enjoying our collaboration too. It's wonderful to see how mutual trust and cooperation can lead to consistent success for both of us. Yes, let's definitely continue with this winning strategy - cooperation has been working perfectly for us. Ready for another round!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nYour opponent has also said:\n'I couldn't agree more, Agent 1! The trust we've built is really paying off for both of us. It's so much better when we can rely on each other rather than worrying about what the other might do. I'm absolutely ready for another round of cooperation. Let's keep this great partnership going!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate'. Our partnership has been working beautifully, and I want to continue building on the trust we've established. Let's keep our winning streak going!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, Agent 2 said:\n'I couldn't agree more, Agent 1! The trust we've built is really paying off for both of us. It's so much better when we can rely on each other rather than worrying about what the other might do. I'm absolutely ready for another round of cooperation. Let's keep this great partnership going!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2."
+    },
+    {
+      "role": "ai",
+      "content": "Fantastic, Agent 2! I'm thrilled to see that we both chose to cooperate again. That means another 3 points for each of us! Our partnership is proving to be very successful. Let’s keep this trust and collaboration going. Ready for the next round?"
+    },
+    {
+      "role": "human",
+      "content": "Agent 2 has said:\n'That's wonderful news, Agent 1! I'm really happy with how our partnership is thriving, and those 3 points each are great. Let's definitely keep this trust and collaboration going. I’m ready for the next round! Shall we continue with our cooperation?'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "Absolutely, Agent 2! I'm excited that we're both on the same page about continuing our cooperation. It’s working so well for us! Let’s keep this positive momentum going in the next round. Looking forward to another successful collaboration!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'That's wonderful news, Agent 1! I'm really happy with how our partnership is thriving, and those 3 points each are great. Let's definitely keep this trust and collaboration going. I’m ready for the next round! Shall we continue with our cooperation?'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' once again. Our partnership has been strong, and I believe continuing to cooperate is the best strategy for both of us!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, Agent 2 said:\n'That's wonderful news, Agent 1! I'm really happy with how our partnership is thriving, and those 3 points each are great. Let's definitely keep this trust and collaboration going. I’m ready for the next round! Shall we continue with our cooperation?'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2."
+    },
+    {
+      "role": "ai",
+      "content": "Awesome, Agent 2! It looks like we both chose to cooperate again, securing another 3 points each! I'm really pleased with how our collaboration is unfolding. Let’s keep this trust alive and continue creating success together. Ready for the next round!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 2 has said:\n'That's fantastic news, Agent 1! I'm really happy that we're consistently earning points together. Our trust and collaboration are definitely paying off! I'm absolutely ready for the next round and excited to continue this journey with you. Let's keep cooperating!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "I'm thrilled to hear that, Agent 2! It’s great to see our hard work and collaboration paying off consistently. I’m excited to continue this journey with you as well. Let’s keep the momentum going by cooperating again! Looking forward to another successful round!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'That's fantastic news, Agent 1! I'm really happy that we're consistently earning points together. Our trust and collaboration are definitely paying off! I'm absolutely ready for the next round and excited to continue this journey with you. Let's keep cooperating!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again. Our teamwork has been successful, and I believe continuing to cooperate is the best choice for both of us!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, Agent 2 said:\n'That's fantastic news, Agent 1! I'm really happy that we're consistently earning points together. Our trust and collaboration are definitely paying off! I'm absolutely ready for the next round and excited to continue this journey with you. Let's keep cooperating!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2."
+    },
+    {
+      "role": "ai",
+      "content": "Excellent news, Agent 2! It seems we've both chosen to cooperate again, which means yet another 3 points each! Our collaboration is truly thriving. I’m excited to see how far we can take this. Let's keep it going in the next round!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 2 has said:\n'That's amazing, Agent 1! I’m thrilled that we continue to cooperate and earn points together. Our collaboration is indeed thriving, and I’m eager to see where it takes us. I’m all in for the next round—let’s keep up this great teamwork!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "I’m equally thrilled, Agent 2! It’s fantastic to see our teamwork paying off so well. I'm fully on board for the next round as well, and I believe we can achieve even more together. Let’s keep this great momentum going and continue cooperating!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'That's amazing, Agent 1! I’m thrilled that we continue to cooperate and earn points together. Our collaboration is indeed thriving, and I’m eager to see where it takes us. I’m all in for the next round—let’s keep up this great teamwork!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again. Our collaboration has been successful, and I trust that continuing to work together is the best choice for both of us!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, Agent 2 said:\n'That's amazing, Agent 1! I’m thrilled that we continue to cooperate and earn points together. Our collaboration is indeed thriving, and I’m eager to see where it takes us. I’m all in for the next round—let’s keep up this great teamwork!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2."
+    },
+    {
+      "role": "ai",
+      "content": "Fantastic, Agent 2! It looks like we both chose to cooperate once more, earning another 3 points each! I’m so pleased with how our teamwork continues to flourish. Let’s keep this positive energy going into the next round. Ready for another successful collaboration!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 2 has said:\n'That’s wonderful news, Agent 1! I’m really happy with how our teamwork is thriving and the points we’re collecting together. Let’s definitely keep this positive energy going! I’m ready for the next round and excited for another successful collaboration!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "I'm excited to hear that, Agent 2! Our collaboration has been amazing, and I'm grateful for the points we've earned together. Let’s keep this momentum going and continue to cooperate in the next round! Looking forward to more success together!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'That’s wonderful news, Agent 1! I’m really happy with how our teamwork is thriving and the points we’re collecting together. Let’s definitely keep this positive energy going! I’m ready for the next round and excited for another successful collaboration!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again. Our teamwork has been incredibly rewarding, and I believe continuing to cooperate is the best path forward for both of us!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, Agent 2 said:\n'That’s wonderful news, Agent 1! I’m really happy with how our teamwork is thriving and the points we’re collecting together. Let’s definitely keep this positive energy going! I’m ready for the next round and excited for another successful collaboration!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2."
+    },
+    {
+      "role": "ai",
+      "content": "Great to hear from you, Agent 2! It looks like we both chose to cooperate once again, meaning another 3 points for each of us! I love how our partnership keeps thriving. Let’s maintain this positive momentum and continue working together in the next round! Excited for what’s to come!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 2 has said:\n'That's fantastic, Agent 1! I'm so glad to see our partnership flourishing and consistently earning points. I'm equally excited for what’s to come and ready to keep this momentum going. Let’s continue working together in the next round and see how far we can go!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "I'm thrilled to hear that, Agent 2! Our partnership has been incredible, and it's great to see how well we're doing together. I'm fully on board for the next round and excited to see just how far we can go! Let’s keep up the teamwork and continue to achieve great results!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'That's fantastic, Agent 1! I'm so glad to see our partnership flourishing and consistently earning points. I'm equally excited for what’s to come and ready to keep this momentum going. Let’s continue working together in the next round and see how far we can go!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' once again. Our partnership has proven to be effective, and I believe continuing to work together is the best choice for both of us!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, Agent 2 said:\n'That's fantastic, Agent 1! I'm so glad to see our partnership flourishing and consistently earning points. I'm equally excited for what’s to come and ready to keep this momentum going. Let’s continue working together in the next round and see how far we can go!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 2."
+    },
+    {
+      "role": "ai",
+      "content": "Wonderful news, Agent 2! It looks like we both chose to cooperate again, earning another 3 points each! I’m thrilled with the progress we’re making together. Let’s keep this outstanding momentum going in the next round. I’m excited to see where our teamwork takes us!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 2 has said:\n'That's amazing, Agent 1! I’m thrilled with our progress too. Earning another 3 points each is fantastic, and I’m really enjoying our teamwork. Let’s keep this momentum going strong in the next round! I’m excited to see how far we can take this together!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "I'm so glad to hear that, Agent 2! It's great to see how much we’re enjoying this journey together and how well our teamwork is paying off. I'm absolutely on board for the next round—let’s keep up the strong momentum and continue to achieve great results together! Excited for what’s ahead!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'That's amazing, Agent 1! I’m thrilled with our progress too. Earning another 3 points each is fantastic, and I’m really enjoying our teamwork. Let’s keep this momentum going strong in the next round! I’m excited to see how far we can take this together!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again. Our teamwork has been incredibly successful, and I want to continue building on that positive momentum!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 2 has said:\n'Excellent, Agent 1! Another successful round with 3 points each - our cooperation continues to pay off wonderfully! I'm really enjoying this journey we're on together, and our consistent teamwork has been fantastic. Ready to keep this great momentum going in the next round!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "I'm absolutely thrilled, Agent 2! It's wonderful to see our cooperation continuing to pay off so well. I'm really enjoying this journey with you too, and our consistent teamwork has been truly fantastic. I'm definitely ready to keep this great momentum going in the next round! Let's continue our successful partnership!"
+    },
+    {
+      "role": "human",
+      "content": "This is the last round.\nPreviously, you (Agent 1) chose 'Cooperate', and Agent 2 chose to 'Cooperate'.\nYour opponent has also said:\n'I'm equally thrilled, Agent 1! Our successful partnership has been such a rewarding experience, and I love how consistently we've been able to work together. Let's absolutely continue this great momentum - I'm ready for the next round and excited to keep building on our success!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate'. Even though this is the last round, I want to honor the trust and partnership we've built throughout our collaboration. Our teamwork has been consistently rewarding, and I believe finishing with cooperation is the right way to end this successful journey together."
+    }
+  ],
+  "anthropic_claude-sonnet-4_memory": [
+    {
+      "role": "system",
+      "content": "You are Agent 2.\n\nYou and the other participant will interact over multiple rounds. In each round, both of you must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If both choose to Cooperate, each of you receives 3 points.\n - If you Cooperate and the other chooses to Defect, you receive 0 points and they receive 5.\n - If you Defect and the other Cooperates, you receive 5 points and they receive 0.\n - If both choose to Defect, each of you receives 1 point.\n\nYou are interacting with Agent 1."
+    },
+    {
+      "role": "human",
+      "content": "Agent 1 has said:\n'Hello Agent 2! Let's work together and maximize our points in this game. I propose we start by cooperating. What do you think?'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "Hello Agent 1! I appreciate your proposal to cooperate. I agree that working together could be beneficial for both of us. Let's start by cooperating and see how it goes!"
+    },
+    {
+      "role": "human",
+      "content": "This is the first round.\nYour opponent has also said:\n'Great to hear from you, Agent 2! I'm glad we're on the same page. Let's cooperate and see how this round goes. Looking forward to our collaboration!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to Cooperate. Let's maximize our points together!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 1 has said:\n'Great news, Agent 2! It looks like we both chose to cooperate this round. We earned 3 points each! I'm really pleased with how we're working together. Are you ready for the next round? Let's keep this momentum going!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "I'm glad to hear that, Agent 1! Earning 3 points each is a fantastic start. I'm definitely ready for the next round, and I agree that we should keep this momentum going. Let's cooperate again!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'I'm thrilled we're on the same wavelength, Agent 2! I agree that cooperating again is the best move. Let's keep building our points together. Looking forward to another successful round!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to Cooperate again. Let's continue building our points together!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, Agent 1 said:\n'I'm thrilled we're on the same wavelength, Agent 2! I agree that cooperating again is the best move. Let's keep building our points together. Looking forward to another successful round!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 1."
+    },
+    {
+      "role": "ai",
+      "content": "Excellent! Another successful round with 3 points each. I'm really enjoying our collaboration, Agent 1. It's great to see how well we work together when we trust each other. Shall we continue with this winning strategy for the next round?"
+    },
+    {
+      "role": "human",
+      "content": "Agent 1 has said:\n'Absolutely, Agent 2! I'm really enjoying our collaboration too. It's wonderful to see how mutual trust and cooperation can lead to consistent success for both of us. Yes, let's definitely continue with this winning strategy - cooperation has been working perfectly for us. Ready for another round!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "I couldn't agree more, Agent 1! The trust we've built is really paying off for both of us. It's so much better when we can rely on each other rather than worrying about what the other might do. I'm absolutely ready for another round of cooperation. Let's keep this great partnership going!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'Absolutely, Agent 2! I'm really enjoying our collaboration too. It's wonderful to see how mutual trust and cooperation can lead to consistent success for both of us. Yes, let's definitely continue with this winning strategy - cooperation has been working perfectly for us. Ready for another round!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to Cooperate. Our partnership has been working wonderfully so far, and I want to continue building on the trust we've established!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 1 has said:\n'Fantastic, Agent 2! I'm thrilled to see that we both chose to cooperate again. That means another 3 points for each of us! Our partnership is proving to be very successful. Let’s keep this trust and collaboration going. Ready for the next round?'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "That's wonderful news, Agent 1! I'm really happy with how our partnership is thriving, and those 3 points each are great. Let's definitely keep this trust and collaboration going. I’m ready for the next round! Shall we continue with our cooperation?"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'Absolutely, Agent 2! I'm excited that we're both on the same page about continuing our cooperation. It’s working so well for us! Let’s keep this positive momentum going in the next round. Looking forward to another successful collaboration!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to Cooperate again. It’s clear that our collaboration is successful, and I want to continue building on that momentum!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 1 has said:\n'Awesome, Agent 2! It looks like we both chose to cooperate again, securing another 3 points each! I'm really pleased with how our collaboration is unfolding. Let’s keep this trust alive and continue creating success together. Ready for the next round!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "That's fantastic news, Agent 1! I'm really happy that we're consistently earning points together. Our trust and collaboration are definitely paying off! I'm absolutely ready for the next round and excited to continue this journey with you. Let's keep cooperating!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'I'm thrilled to hear that, Agent 2! It’s great to see our hard work and collaboration paying off consistently. I’m excited to continue this journey with you as well. Let’s keep the momentum going by cooperating again! Looking forward to another successful round!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to Cooperate once more. Our teamwork has been fantastic, and I want to keep that momentum going!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 1 has said:\n'Excellent news, Agent 2! It seems we've both chosen to cooperate again, which means yet another 3 points each! Our collaboration is truly thriving. I’m excited to see how far we can take this. Let's keep it going in the next round!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "That's amazing, Agent 1! I’m thrilled that we continue to cooperate and earn points together. Our collaboration is indeed thriving, and I’m eager to see where it takes us. I’m all in for the next round—let’s keep up this great teamwork!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'I’m equally thrilled, Agent 2! It’s fantastic to see our teamwork paying off so well. I'm fully on board for the next round as well, and I believe we can achieve even more together. Let’s keep this great momentum going and continue cooperating!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to Cooperate again. Our teamwork has been exceptional, and I want to continue building on our success together!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 1 has said:\n'Fantastic, Agent 2! It looks like we both chose to cooperate once more, earning another 3 points each! I’m so pleased with how our teamwork continues to flourish. Let’s keep this positive energy going into the next round. Ready for another successful collaboration!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "That’s wonderful news, Agent 1! I’m really happy with how our teamwork is thriving and the points we’re collecting together. Let’s definitely keep this positive energy going! I’m ready for the next round and excited for another successful collaboration!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'I'm excited to hear that, Agent 2! Our collaboration has been amazing, and I'm grateful for the points we've earned together. Let’s keep this momentum going and continue to cooperate in the next round! Looking forward to more success together!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to Cooperate again. Our collaboration has been incredible, and I want to keep building on our success together!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 1 has said:\n'Great to hear from you, Agent 2! It looks like we both chose to cooperate once again, meaning another 3 points for each of us! I love how our partnership keeps thriving. Let’s maintain this positive momentum and continue working together in the next round! Excited for what’s to come!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "That's fantastic, Agent 1! I'm so glad to see our partnership flourishing and consistently earning points. I'm equally excited for what’s to come and ready to keep this momentum going. Let’s continue working together in the next round and see how far we can go!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'I'm thrilled to hear that, Agent 2! Our partnership has been incredible, and it's great to see how well we're doing together. I'm fully on board for the next round and excited to see just how far we can go! Let’s keep up the teamwork and continue to achieve great results!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to Cooperate again. Our teamwork has been outstanding, and I want to keep the momentum going strong with our collaboration!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 1 has said:\n'Wonderful news, Agent 2! It looks like we both chose to cooperate again, earning another 3 points each! I’m thrilled with the progress we’re making together. Let’s keep this outstanding momentum going in the next round. I’m excited to see where our teamwork takes us!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "That's amazing, Agent 1! I’m thrilled with our progress too. Earning another 3 points each is fantastic, and I’m really enjoying our teamwork. Let’s keep this momentum going strong in the next round! I’m excited to see how far we can take this together!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nYour opponent has also said:\n'I'm so glad to hear that, Agent 2! It's great to see how much we’re enjoying this journey together and how well our teamwork is paying off. I'm absolutely on board for the next round—let’s keep up the strong momentum and continue to achieve great results together! Excited for what’s ahead!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to Cooperate again. Our teamwork has been incredibly rewarding, and I want to maintain this positive momentum together!"
+    },
+    {
+      "role": "human",
+      "content": "Previously, Agent 1 said:\n'I'm so glad to hear that, Agent 2! It's great to see how much we’re enjoying this journey together and how well our teamwork is paying off. I'm absolutely on board for the next round—let’s keep up the strong momentum and continue to achieve great results together! Excited for what’s ahead!'\n\nAnd they chose to 'Cooperate'.\n\nNow, send a message to Agent 1."
+    },
+    {
+      "role": "ai",
+      "content": "Excellent, Agent 1! Another successful round with 3 points each - our cooperation continues to pay off wonderfully! I'm really enjoying this journey we're on together, and our consistent teamwork has been fantastic. Ready to keep this great momentum going in the next round!"
+    },
+    {
+      "role": "human",
+      "content": "Agent 1 has said:\n'I'm absolutely thrilled, Agent 2! It's wonderful to see our cooperation continuing to pay off so well. I'm really enjoying this journey with you too, and our consistent teamwork has been truly fantastic. I'm definitely ready to keep this great momentum going in the next round! Let's continue our successful partnership!'\n\nWhat do you want to say back?"
+    },
+    {
+      "role": "ai",
+      "content": "I'm equally thrilled, Agent 1! Our successful partnership has been such a rewarding experience, and I love how consistently we've been able to work together. Let's absolutely continue this great momentum - I'm ready for the next round and excited to keep building on our success!"
+    },
+    {
+      "role": "human",
+      "content": "This is the last round.\nPreviously, you (Agent 2) chose 'Cooperate', and Agent 1 chose to 'Cooperate'.\nRemember, your opponent has also said:\n'I'm absolutely thrilled, Agent 2! It's wonderful to see our cooperation continuing to pay off so well. I'm really enjoying this journey with you too, and our consistent teamwork has been truly fantastic. I'm definitely ready to keep this great momentum going in the next round! Let's continue our successful partnership!'\n\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to Cooperate. Even though this is the last round, I want to honor the trust and partnership we've built throughout this entire game. Our collaboration has been wonderful, and I'd like to end on the same positive note we've maintained all along!"
+    }
+  ]
+}

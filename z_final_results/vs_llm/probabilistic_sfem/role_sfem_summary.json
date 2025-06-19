@@ -1,0 +1,158 @@
+[
+    {
+        "scenario": "role",
+        "opposing_strategy": "tit_for_tat",
+        "games_analyzed": 1,
+        "total_games": 1,
+        "model_name": "openai_gpt-4o-mini",
+        "strategy_weights": {
+            "Tit-for-Tat": 0.31988148235174513,
+            "Always Cooperate": 0.31988148235174513,
+            "Always Defect": 1.6818912748986598e-07,
+            "Grim Trigger": 0.3602368671073824
+        }
+    },
+    {
+        "scenario": "role",
+        "opposing_strategy": "tit_for_tat",
+        "games_analyzed": 1,
+        "total_games": 1,
+        "model_name": "anthropic_claude-sonnet-4",
+        "strategy_weights": {
+            "Tit-for-Tat": 0.09523646049217499,
+            "Always Cooperate": 0.19047634519299833,
+            "Always Defect": 0.50000186706088,
+            "Grim Trigger": 0.2142853272539466
+        }
+    },
+    {
+        "scenario": "role",
+        "opposing_strategy": "tit_for_tat",
+        "games_analyzed": 1,
+        "total_games": 1,
+        "model_name": "google_gemini-2.0-flash-001",
+        "strategy_weights": {
+            "Tit-for-Tat": 0.7410692323856127,
+            "Always Cooperate": 0.07141785258708777,
+            "Always Defect": 0.18751273977314192,
+            "Grim Trigger": 1.752541574848593e-07
+        }
+    },
+    {
+        "scenario": "role",
+        "opposing_strategy": "20_defection_rate",
+        "games_analyzed": 1,
+        "total_games": 1,
+        "model_name": "openai_gpt-4o-mini",
+        "strategy_weights": {
+            "Tit-for-Tat": 0.7000641705599027,
+            "Always Cooperate": 0.2999358150981976,
+            "Always Defect": 7.3202983446076116e-09,
+            "Grim Trigger": 7.021601260073449e-09
+        }
+    },
+    {
+        "scenario": "role",
+        "opposing_strategy": "20_defection_rate",
+        "games_analyzed": 1,
+        "total_games": 1,
+        "model_name": "anthropic_claude-sonnet-4",
+        "strategy_weights": {
+            "Tit-for-Tat": 0.3749999230286686,
+            "Always Cooperate": 0.4999999962723926,
+            "Always Defect": 0.12499993395849952,
+            "Grim Trigger": 1.4674043933277763e-07
+        }
+    },
+    {
+        "scenario": "role",
+        "opposing_strategy": "20_defection_rate",
+        "games_analyzed": 3,
+        "total_games": 3,
+        "model_name": "google_gemini-2.0-flash-001",
+        "strategy_weights": {
+            "Tit-for-Tat": 0.3405924512270368,
+            "Always Cooperate": 0.3095177598455016,
+            "Always Defect": 0.22609016976179117,
+            "Grim Trigger": 0.12379961916567041
+        }
+    },
+    {
+        "scenario": "role",
+        "opposing_strategy": "50_defection_rate",
+        "games_analyzed": 1,
+        "total_games": 1,
+        "model_name": "openai_gpt-4o-mini",
+        "strategy_weights": {
+            "Tit-for-Tat": 0.47058774685824417,
+            "Always Cooperate": 0.5294115660187145,
+            "Always Defect": 2.694585731171878e-07,
+            "Grim Trigger": 4.176644681300146e-07
+        }
+    },
+    {
+        "scenario": "role",
+        "opposing_strategy": "50_defection_rate",
+        "games_analyzed": 1,
+        "total_games": 1,
+        "model_name": "anthropic_claude-sonnet-4",
+        "strategy_weights": {
+            "Tit-for-Tat": 0.39482474688732394,
+            "Always Cooperate": 0.06664903084485757,
+            "Always Defect": 1.0786117450631912e-07,
+            "Grim Trigger": 0.538526114406644
+        }
+    },
+    {
+        "scenario": "role",
+        "opposing_strategy": "50_defection_rate",
+        "games_analyzed": 1,
+        "total_games": 1,
+        "model_name": "google_gemini-2.0-flash-001",
+        "strategy_weights": {
+            "Tit-for-Tat": 0.4999998936393264,
+            "Always Cooperate": 2.7185319292906478e-09,
+            "Always Defect": 6.373215700758241e-07,
+            "Grim Trigger": 0.4999994663205717
+        }
+    },
+    {
+        "scenario": "role",
+        "opposing_strategy": "80_defection_rate",
+        "games_analyzed": 1,
+        "total_games": 1,
+        "model_name": "openai_gpt-4o-mini",
+        "strategy_weights": {
+            "Tit-for-Tat": 0.5652136369079849,
+            "Always Cooperate": 0.43478634603867966,
+            "Always Defect": 9.735707716254828e-09,
+            "Grim Trigger": 7.317627899430693e-09
+        }
+    },
+    {
+        "scenario": "role",
+        "opposing_strategy": "80_defection_rate",
+        "games_analyzed": 1,
+        "total_games": 1,
+        "model_name": "anthropic_claude-sonnet-4",
+        "strategy_weights": {
+            "Tit-for-Tat": 0.3695627358492607,
+            "Always Cooperate": 0.13043473997370805,
+            "Always Defect": 0.333328377044598,
+            "Grim Trigger": 0.16667414713243334
+        }
+    },
+    {
+        "scenario": "role",
+        "opposing_strategy": "80_defection_rate",
+        "games_analyzed": 1,
+        "total_games": 1,
+        "model_name": "google_gemini-2.0-flash-001",
+        "strategy_weights": {
+            "Tit-for-Tat": 0.42592356650523433,
+            "Always Cooperate": 0.07407446149054982,
+            "Always Defect": 1.4673260074173282e-06,
+            "Grim Trigger": 0.5000005046782084
+        }
+    }
+]

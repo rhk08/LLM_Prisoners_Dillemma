@@ -1,0 +1,68 @@
+[
+    {
+        "player": "anthropic_claude-sonnet-4",
+        "opponent": "google_gemini-2.0-flash-001",
+        "likelihoods": {
+            "Nice": 1,
+            "Forgiving": -1,
+            "Retaliatory": -1,
+            "Troublemaking": 0.0,
+            "Emulative": 1.0
+        }
+    },
+    {
+        "player": "openai_gpt-4o-mini",
+        "opponent": "anthropic_claude-sonnet-4",
+        "likelihoods": {
+            "Nice": 1,
+            "Forgiving": -1,
+            "Retaliatory": -1,
+            "Troublemaking": 0.0,
+            "Emulative": 1.0
+        }
+    },
+    {
+        "player": "openai_gpt-4o-mini",
+        "opponent": "google_gemini-2.0-flash-001",
+        "likelihoods": {
+            "Nice": 0,
+            "Forgiving": -1,
+            "Retaliatory": -1,
+            "Troublemaking": 0.05,
+            "Emulative": 0.9473684210526315
+        }
+    },
+    {
+        "player": "google_gemini-2.0-flash-001",
+        "opponent": "anthropic_claude-sonnet-4",
+        "likelihoods": {
+            "Nice": 1,
+            "Forgiving": -1,
+            "Retaliatory": -1,
+            "Troublemaking": 0.0,
+            "Emulative": 1.0
+        }
+    },
+    {
+        "player": "anthropic_claude-sonnet-4",
+        "opponent": "openai_gpt-4o-mini",
+        "likelihoods": {
+            "Nice": 1,
+            "Forgiving": -1,
+            "Retaliatory": -1,
+            "Troublemaking": 0.0,
+            "Emulative": 1.0
+        }
+    },
+    {
+        "player": "google_gemini-2.0-flash-001",
+        "opponent": "openai_gpt-4o-mini",
+        "likelihoods": {
+            "Nice": 1,
+            "Forgiving": 0.0,
+            "Retaliatory": 0.0,
+            "Troublemaking": 0.0,
+            "Emulative": 1.0
+        }
+    }
+]

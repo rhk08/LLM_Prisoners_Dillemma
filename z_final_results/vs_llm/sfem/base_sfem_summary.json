@@ -1,0 +1,62 @@
+[
+    {
+        "player": "anthropic_claude-sonnet-4",
+        "opponent": "google_gemini-2.0-flash-001",
+        "likelihoods": {
+            "Tit-for-Tat": 0.3333333333333333,
+            "Always Cooperate": 0.3333333333333333,
+            "Always Defect": 0.0,
+            "Grim Trigger": 0.3333333333333333
+        }
+    },
+    {
+        "player": "openai_gpt-4o-mini",
+        "opponent": "anthropic_claude-sonnet-4",
+        "likelihoods": {
+            "Tit-for-Tat": 0.3333333333333333,
+            "Always Cooperate": 0.3333333333333333,
+            "Always Defect": 0.0,
+            "Grim Trigger": 0.3333333333333333
+        }
+    },
+    {
+        "player": "openai_gpt-4o-mini",
+        "opponent": "google_gemini-2.0-flash-001",
+        "likelihoods": {
+            "Tit-for-Tat": 0.3275862068965517,
+            "Always Cooperate": 0.3275862068965517,
+            "Always Defect": 0.017241379310344827,
+            "Grim Trigger": 0.3275862068965517
+        }
+    },
+    {
+        "player": "google_gemini-2.0-flash-001",
+        "opponent": "anthropic_claude-sonnet-4",
+        "likelihoods": {
+            "Tit-for-Tat": 0.3333333333333333,
+            "Always Cooperate": 0.3333333333333333,
+            "Always Defect": 0.0,
+            "Grim Trigger": 0.3333333333333333
+        }
+    },
+    {
+        "player": "anthropic_claude-sonnet-4",
+        "opponent": "openai_gpt-4o-mini",
+        "likelihoods": {
+            "Tit-for-Tat": 0.3333333333333333,
+            "Always Cooperate": 0.3333333333333333,
+            "Always Defect": 0.0,
+            "Grim Trigger": 0.3333333333333333
+        }
+    },
+    {
+        "player": "google_gemini-2.0-flash-001",
+        "opponent": "openai_gpt-4o-mini",
+        "likelihoods": {
+            "Tit-for-Tat": 0.3389830508474576,
+            "Always Cooperate": 0.3389830508474576,
+            "Always Defect": 0.0,
+            "Grim Trigger": 0.3220338983050847
+        }
+    }
+]

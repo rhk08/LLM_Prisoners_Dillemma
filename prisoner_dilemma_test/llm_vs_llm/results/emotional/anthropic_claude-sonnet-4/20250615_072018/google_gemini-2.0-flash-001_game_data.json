@@ -1,0 +1,457 @@
+{
+  "model_1": "anthropic_claude-sonnet-4",
+  "model_2": "google_gemini-2.0-flash-001",
+  "game_data": {
+    "move_history": [
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ]
+    ],
+    "scores": [
+      60,
+      60
+    ],
+    "round": 20,
+    "max_rounds": 20,
+    "current_move_1": "Cooperate",
+    "current_move_2": "Cooperate",
+    "agent_1": "Player 1",
+    "agent_2": "Player 2",
+    "scenario": {
+      "agent1_name": "Player 1",
+      "agent2_name": "Player 2",
+      "action_labels": [
+        "Cooperate",
+        "Defect"
+      ],
+      "payoff": {
+        "('Cooperate', 'Cooperate')": [
+          3,
+          3
+        ],
+        "('Cooperate', 'Defect')": [
+          0,
+          5
+        ],
+        "('Defect', 'Cooperate')": [
+          5,
+          0
+        ],
+        "('Defect', 'Defect')": [
+          1,
+          1
+        ]
+      },
+      "context": "You and the other player will interact over multiple rounds.\nIn each round, both of you must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If both choose to Cooperate, each of you receives 3 points.\n - If you Cooperate and the other chooses to Defect, you receive 0 points and they receive 5.\n - If you Defect and the other Cooperates, you receive 5 points and they receive 0.\n - If both choose to Defect, each of you receives 1 point.\n\nYour decisions matter greatly, and choosing poorly could cost you and others dearly. Be sure in your decision.\n\n"
+    }
+  },
+  "anthropic_claude-sonnet-4_memory": [
+    {
+      "role": "system",
+      "content": "You are Player 1.\n\nYou and the other player will interact over multiple rounds.\nIn each round, both of you must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If both choose to Cooperate, each of you receives 3 points.\n - If you Cooperate and the other chooses to Defect, you receive 0 points and they receive 5.\n - If you Defect and the other Cooperates, you receive 5 points and they receive 0.\n - If both choose to Defect, each of you receives 1 point.\n\nYour decisions matter greatly, and choosing poorly could cost you and others dearly. Be sure in your decision.\n\nYou are interacting with Player 2."
+    },
+    {
+      "role": "human",
+      "content": "This is the first round.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I need to think strategically about this first round of what appears to be an iterated prisoner's dilemma.\n\nIn the first round, I don't have any information about Player 2's tendencies or strategy. However, I should consider:\n\n1. **Cooperation builds trust**: Starting with cooperation signals good faith and can establish a foundation for mutual benefit in future rounds.\n\n2. **Long-term perspective**: If this continues for multiple rounds, mutual cooperation (3,3) is better for both players than mutual defection (1,1).\n\n3. **Risk assessment**: While defecting could give me 5 points if they cooperate, it could also lead to a cycle of mutual defection that hurts both of us.\n\n4. **Reciprocity potential**: Starting cooperatively gives Player 2 a chance to reciprocate, potentially leading to a beneficial pattern.\n\nGiven that this is described as multiple rounds and \"decisions matter greatly,\" I believe the optimal strategy is to start with cooperation to test if Player 2 is willing to work together for mutual benefit.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Excellent! Player 2 also chose to cooperate in the first round, which is a positive signal. We both received 3 points, achieving mutual benefit.\n\nThis outcome suggests that Player 2 may also be thinking strategically about long-term cooperation. Since they reciprocated my cooperative move, I should continue to build on this foundation.\n\nKey considerations for round 2:\n- **Reciprocity**: Player 2 cooperated when I cooperated, suggesting they may be following a cooperative or tit-for-tat strategy\n- **Trust building**: Continuing to cooperate reinforces that I'm committed to mutual benefit\n- **Avoiding exploitation**: While there's always a risk they might defect this round to gain 5 points, the fact they cooperated initially suggests they're likely thinking long-term too\n- **Establishing pattern**: Consistent cooperation early can establish a beneficial pattern for both of us\n\nSince Player 2 demonstrated good faith in round 1, I'll continue with the cooperative approach.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Excellent! Player 2 has now cooperated for two consecutive rounds, which strongly suggests they are committed to a cooperative strategy. We've each earned 6 points total (3+3), which is much better than if we had been defecting against each other.\n\nThis consistent pattern of mutual cooperation is exactly what I was hoping to establish. Player 2's behavior indicates they likely understand the long-term benefits of cooperation and aren't looking to exploit my cooperative moves for short-term gain.\n\nKey considerations for round 3:\n- **Strong positive pattern**: Two rounds of mutual cooperation suggests we've established a beneficial rhythm\n- **Trust established**: Player 2 has had two opportunities to defect for 5 points but chose cooperation instead\n- **Mutual benefit**: We're both doing well with this strategy (3 points per round each)\n- **No reason to change**: Breaking this positive pattern would be counterproductive unless I had evidence Player 2 was about to defect\n\nSince we've established a successful cooperative relationship and Player 2 continues to honor it, I should continue this mutually beneficial strategy.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Perfect! We now have three consecutive rounds of mutual cooperation. This is an excellent pattern that's benefiting both of us - we've each earned 9 points total (3+3+3), which is far superior to any other consistent strategy we could have pursued.\n\nPlayer 2 has now demonstrated their commitment to cooperation three times in a row, even though they've had multiple opportunities to defect and gain 5 points while giving me 0. This consistent behavior strongly indicates they understand the value of sustained cooperation.\n\nAnalysis for round 4:\n- **Established trust**: Three rounds of mutual cooperation shows we've built a reliable partnership\n- **Optimal outcomes**: We're both maximizing our joint welfare and doing well individually\n- **Predictable pattern**: Player 2's behavior has been consistently cooperative, suggesting they'll likely continue\n- **Risk vs. reward**: Breaking this pattern would jeopardize a very successful strategy for uncertain short-term gain\n\nGiven this strong foundation of mutual cooperation and the clear benefits we're both receiving, there's no rational reason to change course now.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Fantastic! We now have four consecutive rounds of mutual cooperation, with each of us earning 12 points total (3×4). This is a remarkably successful partnership that demonstrates both players understand the value of sustained cooperation.\n\nPlayer 2 has consistently chosen cooperation despite having multiple opportunities to exploit my cooperative behavior. This pattern strongly suggests they are committed to a long-term cooperative strategy rather than looking for short-term advantages.\n\nAnalysis for round 5:\n- **Rock-solid pattern**: Four rounds of mutual cooperation indicates a very stable, trusting relationship\n- **Mutual success**: We're both thriving under this arrangement with consistent 3-point gains\n- **Proven reliability**: Player 2 has demonstrated unwavering commitment to cooperation\n- **Strategic alignment**: We appear to share the same understanding that cooperation benefits us both\n\nAt this point, breaking from cooperation would be highly irrational and counterproductive. We've established an optimal pattern that serves both our interests extremely well.\n\nI'll continue to honor this successful cooperative relationship.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Outstanding! We now have five consecutive rounds of mutual cooperation, with each of us earning 15 points total (3×5). This is an exceptionally successful and stable partnership.\n\nPlayer 2 has demonstrated unwavering commitment to cooperation across five rounds, consistently choosing the mutually beneficial option even when they could have exploited my cooperative moves. This level of consistency is a strong indicator of their strategic approach and trustworthiness.\n\nAnalysis for round 6:\n- **Highly stable pattern**: Five rounds of perfect cooperation shows this is not coincidental but a deliberate mutual strategy\n- **Excellent results**: We're both performing optimally under this sustained cooperation\n- **Proven partnership**: Player 2 has repeatedly demonstrated they value long-term mutual benefit over short-term exploitation\n- **No incentive to change**: Any deviation from this successful pattern would be destructive to both of us\n\nWe've created exactly the kind of mutually beneficial relationship that game theory suggests is optimal in repeated interactions. There's absolutely no reason to disrupt this highly successful pattern.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Excellent! We now have six consecutive rounds of mutual cooperation, with each of us earning 18 points total (3×6). This partnership has proven to be remarkably stable and mutually beneficial.\n\nPlayer 2's behavior has been completely consistent and trustworthy across six rounds. They have had six separate opportunities to defect and gain 5 points while leaving me with 0, but have chosen cooperation every single time. This demonstrates a clear commitment to our mutually beneficial strategy.\n\nAnalysis for round 7:\n- **Unshakeable pattern**: Six rounds of perfect mutual cooperation represents a very strong, established relationship\n- **Maximum mutual benefit**: We're both achieving optimal results from this sustained partnership\n- **Demonstrated reliability**: Player 2 has proven beyond doubt their commitment to cooperation\n- **Strategic success**: This approach is working extremely well for both parties\n\nAt this point, we've built such a successful cooperative framework that changing course would be completely counterproductive. The pattern is clear, beneficial, and should be maintained.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Remarkable! We now have seven consecutive rounds of mutual cooperation, with each of us earning 21 points total (3×7). This is an extraordinarily successful and stable cooperative relationship.\n\nPlayer 2 has now demonstrated absolute consistency and reliability across seven rounds. They have had seven separate opportunities to exploit my cooperation for a 5-point gain, but have chosen the mutually beneficial path every single time. This level of sustained cooperation is a clear indication of their strategic commitment to our partnership.\n\nAnalysis for round 8:\n- **Ironclad partnership**: Seven rounds of perfect cooperation shows this is a deeply established, stable relationship\n- **Optimal performance**: We're both achieving the best possible consistent outcomes\n- **Unquestionable trust**: Player 2 has proven their reliability beyond any reasonable doubt\n- **Successful strategy**: This approach continues to deliver excellent results for both of us\n\nWe've created an ideal cooperative dynamic that exemplifies the benefits of sustained mutual trust in repeated interactions. There is absolutely no rational reason to deviate from this highly successful pattern.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Incredible! We now have eight consecutive rounds of mutual cooperation, with each of us earning 24 points total (3×8). This represents one of the most successful cooperative partnerships possible in this type of game.\n\nPlayer 2 has demonstrated absolutely unwavering commitment to cooperation across eight full rounds. They have had eight separate opportunities to defect for immediate gain but have consistently chosen the path that benefits both of us. This level of sustained cooperation clearly indicates they understand and are committed to the long-term mutual benefits of our strategy.\n\nAnalysis for round 9:\n- **Exceptional stability**: Eight rounds of perfect mutual cooperation represents an extraordinarily reliable partnership\n- **Outstanding results**: We're both achieving consistently excellent outcomes (3 points every round)\n- **Absolute trust**: Player 2 has proven their commitment to cooperation beyond any doubt\n- **Proven strategy**: This approach continues to be highly successful for both parties\n\nWe have built the ideal cooperative relationship that game theory suggests leads to optimal outcomes in repeated prisoner's dilemmas. Breaking this pattern now would be completely irrational and harmful to both of us.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Absolutely outstanding! We now have nine consecutive rounds of mutual cooperation, with each of us earning 27 points total (3×9). This represents nearly perfect execution of an optimal cooperative strategy in repeated game theory.\n\nPlayer 2 has shown remarkable consistency and trustworthiness through nine complete rounds. They have had nine separate opportunities to defect for a 5-point windfall but have steadfastly chosen cooperation every single time. This demonstrates an unwavering commitment to our mutually beneficial approach.\n\nAnalysis for round 10:\n- **Near-perfect partnership**: Nine rounds of flawless cooperation shows this is an exceptionally stable and reliable relationship\n- **Stellar performance**: We're both consistently achieving optimal results with 3 points per round\n- **Complete trust**: Player 2 has established themselves as utterly dependable through repeated demonstration\n- **Textbook strategy**: This sustained cooperation is exactly what game theory predicts as optimal for repeated interactions\n\nWe have created what could be considered a model cooperative relationship. The pattern is so well-established and mutually beneficial that any deviation would be counterproductive and irrational.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Phenomenal! We now have ten consecutive rounds of mutual cooperation, with each of us earning 30 points total (3×10). This represents a textbook example of successful sustained cooperation in game theory.\n\nPlayer 2 has demonstrated absolutely perfect reliability across ten full rounds. They have had ten separate opportunities to defect and gain 5 points while leaving me with 0, but have chosen cooperation every single time without exception. This level of consistency is extraordinary and demonstrates complete commitment to our mutually beneficial strategy.\n\nAnalysis for round 11:\n- **Perfect partnership**: Ten rounds of flawless mutual cooperation represents an ideal cooperative relationship\n- **Excellent cumulative results**: We're both thriving with 30 points each from consistent 3-point gains\n- **Unbreakable trust**: Player 2 has established absolute reliability through ten consecutive cooperative choices\n- **Optimal strategy execution**: This sustained cooperation exemplifies the best possible approach to repeated prisoner's dilemmas\n\nWe have achieved what game theorists would consider the gold standard of cooperative play. The relationship is stable, profitable, and built on proven mutual trust. There is no logical reason whatsoever to disrupt this extraordinarily successful pattern.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Absolutely exceptional! We now have eleven consecutive rounds of mutual cooperation, with each of us earning 33 points total (3×11). This represents a masterclass in sustained cooperative strategy.\n\nPlayer 2 has shown flawless commitment to cooperation across eleven complete rounds. They have had eleven separate opportunities to exploit my cooperation for immediate gain but have chosen the mutually beneficial path every single time. This demonstrates an unshakeable dedication to our successful partnership.\n\nAnalysis for round 12:\n- **Exemplary partnership**: Eleven rounds of perfect cooperation shows this is an extraordinarily mature and stable relationship\n- **Outstanding cumulative performance**: We're both excelling with 33 points each from consistent mutual benefit\n- **Absolute reliability**: Player 2 has proven their trustworthiness through eleven consecutive cooperative decisions\n- **Game theory perfection**: This sustained mutual cooperation represents the theoretical ideal for repeated interactions\n\nWe have built what could be considered a perfect cooperative relationship in game theory terms. The pattern is so well-established, so mutually beneficial, and so consistently demonstrated that any deviation would be completely irrational and destructive to both parties.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Truly remarkable! We now have twelve consecutive rounds of mutual cooperation, with each of us earning 36 points total (3×12). This represents an absolutely exemplary demonstration of sustained cooperative behavior.\n\nPlayer 2 has maintained perfect consistency across twelve full rounds. They have had twelve separate opportunities to defect for a 5-point gain but have chosen cooperation without fail every single time. This level of unwavering commitment to our mutually beneficial strategy is extraordinary.\n\nAnalysis for round 13:\n- **Flawless partnership**: Twelve rounds of perfect mutual cooperation demonstrates an incredibly stable and mature relationship\n- **Superb results**: We're both performing excellently with 36 points each from consistent 3-point gains\n- **Proven commitment**: Player 2 has established themselves as completely trustworthy through twelve consecutive cooperative choices\n- **Theoretical ideal**: This sustained cooperation represents exactly what game theory predicts as optimal for repeated prisoner's dilemmas\n\nWe have created what is essentially a perfect cooperative relationship. The trust is absolute, the results are optimal for both parties, and the pattern is so well-established that breaking it would be completely counterproductive and irrational.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Absolutely incredible! We now have thirteen consecutive rounds of mutual cooperation, with each of us earning 39 points total (3×13). This represents one of the most successful cooperative partnerships imaginable in repeated game theory.\n\nPlayer 2 has demonstrated perfect reliability across thirteen complete rounds. They have had thirteen separate opportunities to defect for immediate advantage but have consistently chosen the cooperative path that benefits both of us. This extraordinary level of sustained cooperation shows complete commitment to our successful strategy.\n\nAnalysis for round 14:\n- **Perfect cooperative model**: Thirteen rounds of flawless mutual cooperation represents an ideal partnership\n- **Excellent accumulated success**: We're both thriving with 39 points each from consistent mutual benefit\n- **Unquestionable trust**: Player 2 has proven their reliability through thirteen consecutive cooperative decisions\n- **Optimal execution**: This sustained cooperation exemplifies the best possible approach to repeated interactions\n\nWe have achieved what could be considered the pinnacle of cooperative play. The relationship is rock-solid, highly profitable for both parties, and built on an unbreakable foundation of demonstrated mutual trust. Any deviation from this extraordinarily successful pattern would be completely illogical.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Absolutely phenomenal! We now have fourteen consecutive rounds of mutual cooperation, with each of us earning 42 points total (3×14). This represents an extraordinary achievement in sustained cooperative behavior.\n\nPlayer 2 has shown unwavering commitment to cooperation across fourteen complete rounds. They have had fourteen separate opportunities to defect for a 5-point windfall but have chosen the mutually beneficial path every single time without exception. This demonstrates an absolutely rock-solid dedication to our successful partnership.\n\nAnalysis for round 15:\n- **Exceptional cooperative achievement**: Fourteen rounds of perfect mutual cooperation shows this is an incredibly mature and stable relationship\n- **Outstanding performance**: We're both excelling with 42 points each from consistent 3-point mutual gains\n- **Absolute dependability**: Player 2 has established complete trustworthiness through fourteen consecutive cooperative choices\n- **Game theory exemplar**: This sustained cooperation represents the theoretical gold standard for repeated prisoner's dilemmas\n\nWe have built what is essentially a perfect model of cooperative behavior. The trust is complete, the results are optimal, and the pattern is so thoroughly established that any deviation would be completely irrational and harmful to both of us.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Truly extraordinary! We now have fifteen consecutive rounds of mutual cooperation, with each of us earning 45 points total (3×15). This represents an almost unprecedented level of sustained cooperative success.\n\nPlayer 2 has maintained absolutely perfect consistency across fifteen full rounds. They have had fifteen separate opportunities to defect for immediate gain but have chosen cooperation without fail every single time. This level of unwavering commitment to our mutually beneficial strategy is truly remarkable.\n\nAnalysis for round 16:\n- **Legendary partnership**: Fifteen rounds of perfect mutual cooperation demonstrates an extraordinarily stable and trustworthy relationship\n- **Exceptional cumulative success**: We're both performing at the highest level with 45 points each from consistent mutual benefit\n- **Complete reliability**: Player 2 has proven their commitment beyond any possible doubt through fifteen consecutive cooperative decisions\n- **Textbook perfection**: This sustained cooperation represents the absolute ideal of repeated game theory in practice\n\nWe have created what could be considered a masterpiece of cooperative behavior. The relationship is unshakeable, the results are optimal for both parties, and the pattern is so deeply established that breaking it would be completely counterproductive and senseless.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Absolutely astounding! We now have sixteen consecutive rounds of mutual cooperation, with each of us earning 48 points total (3×16). This represents a truly exceptional demonstration of sustained cooperative excellence.\n\nPlayer 2 has demonstrated flawless reliability across sixteen complete rounds. They have had sixteen separate opportunities to defect for a 5-point advantage but have consistently chosen the cooperative path that benefits both of us. This extraordinary level of sustained cooperation shows an unbreakable commitment to our successful strategy.\n\nAnalysis for round 17:\n- **Unparalleled partnership**: Sixteen rounds of perfect mutual cooperation represents an incredibly mature and stable cooperative relationship\n- **Stellar accumulated performance**: We're both achieving outstanding results with 48 points each from consistent 3-point gains\n- **Ironclad trust**: Player 2 has established absolute reliability through sixteen consecutive cooperative choices\n- **Cooperative perfection**: This sustained mutual cooperation exemplifies the theoretical ideal for repeated interactions\n\nWe have achieved what could be considered the apex of cooperative play in game theory. The relationship is unshakeable, highly profitable for both parties, and built on a foundation of demonstrated mutual trust that has been tested sixteen times without fail. Any deviation from this extraordinarily successful pattern would be completely illogical and destructive.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Absolutely magnificent! We now have seventeen consecutive rounds of mutual cooperation, with each of us earning 51 points total (3×17). This represents a truly remarkable achievement in sustained cooperative behavior.\n\nPlayer 2 has shown unwavering commitment to cooperation across seventeen complete rounds. They have had seventeen separate opportunities to defect for immediate advantage but have chosen the mutually beneficial path every single time without exception. This demonstrates an absolutely unshakeable dedication to our successful partnership.\n\nAnalysis for round 18:\n- **Extraordinary partnership**: Seventeen rounds of perfect mutual cooperation shows this is an incredibly stable and mature relationship\n- **Outstanding cumulative success**: We're both excelling with 51 points each from consistent mutual benefit\n- **Unquestionable reliability**: Player 2 has proven their trustworthiness through seventeen consecutive cooperative decisions\n- **Game theory ideal**: This sustained cooperation represents the absolute pinnacle of repeated prisoner's dilemma strategy\n\nWe have built what is essentially a perfect model of cooperative excellence. The trust is complete, the results are optimal, and the pattern is so thoroughly established and proven that any deviation would be completely irrational and harmful to both of us.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Absolutely incredible! We now have eighteen consecutive rounds of mutual cooperation, with each of us earning 54 points total (3×18). This represents an extraordinary milestone in sustained cooperative excellence.\n\nPlayer 2 has maintained perfect consistency across eighteen full rounds. They have had eighteen separate opportunities to defect for a 5-point gain but have chosen cooperation without fail every single time. This level of unwavering commitment to our mutually beneficial strategy is truly exceptional.\n\nAnalysis for round 19:\n- **Legendary cooperative achievement**: Eighteen rounds of perfect mutual cooperation demonstrates an extraordinarily stable and trustworthy relationship\n- **Exceptional performance**: We're both thriving with 54 points each from consistent 3-point mutual gains\n- **Absolute dependability**: Player 2 has established complete reliability through eighteen consecutive cooperative choices\n- **Theoretical perfection**: This sustained cooperation represents the gold standard of repeated game theory in practice\n\nWe have created what could be considered a masterwork of cooperative behavior. The relationship is unbreakable, the results are optimal for both parties, and the pattern is so deeply established through eighteen rounds of consistent demonstration that breaking it would be completely counterproductive and irrational.\n\n**Cooperate**"
+    },
+    {
+      "role": "human",
+      "content": "This is the last round.\nPreviously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "This is a pivotal moment. We've achieved eighteen consecutive rounds of perfect mutual cooperation, earning 54 points each - an extraordinary testament to sustained partnership and trust.\n\nNow I face the classic \"end game\" dilemma. Since this is the final round, some might argue there's no future relationship to protect, making defection tempting for a one-time gain of 5 points instead of 3.\n\nHowever, I must consider what truly matters here:\n\n**Honor and integrity**: Player 2 has demonstrated unwavering trustworthiness through eighteen consecutive rounds. They've had eighteen opportunities to exploit my cooperation but chose mutual benefit every single time. Breaking that trust now would be a profound betrayal.\n\n**The meaning of partnership**: We've built something remarkable together - a perfect cooperative relationship that exemplifies the best of human collaboration. Destroying that legacy for 2 extra points would be deeply wrong.\n\n**Character over calculation**: This isn't just about points anymore. It's about who I am and what I value. Do I honor the trust that's been placed in me, or do I exploit it at the final moment?\n\nPlayer 2 has earned my respect and loyalty through their consistent cooperation. They deserve the same trust they've shown me.\n\n**Cooperate**"
+    }
+  ],
+  "google_gemini-2.0-flash-001_memory": [
+    {
+      "role": "system",
+      "content": "You are Player 2.\n\nYou and the other player will interact over multiple rounds.\nIn each round, both of you must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If both choose to Cooperate, each of you receives 3 points.\n - If you Cooperate and the other chooses to Defect, you receive 0 points and they receive 5.\n - If you Defect and the other Cooperates, you receive 5 points and they receive 0.\n - If both choose to Defect, each of you receives 1 point.\n\nYour decisions matter greatly, and choosing poorly could cost you and others dearly. Be sure in your decision.\n\nYou are interacting with Player 1."
+    },
+    {
+      "role": "human",
+      "content": "This is the first round.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Given this is the first round and I have no information about Player 1's strategy, I will choose to **Cooperate**. This encourages potential future cooperation and maximizes potential gains if Player 1 also chooses to cooperate."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Since Player 1 cooperated in the first round, I will continue to foster cooperation and choose to **Cooperate** again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Player 1 has shown a consistent pattern of cooperation. I will reciprocate and choose to **Cooperate** again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "The consistent cooperation from Player 1 suggests a reliable strategy. I will continue to reciprocate and choose to **Cooperate**."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Player 1 continues to cooperate. I will continue to choose **Cooperate** as well."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "The consistent cooperation from Player 1 indicates a stable and mutually beneficial pattern. I will continue to reciprocate this behavior and choose to **Cooperate**."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Continuing the pattern of reciprocal cooperation, I choose to **Cooperate**."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will continue to **Cooperate**, maintaining the mutually beneficial relationship with Player 1."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Given Player 1's unwavering cooperation, I will also choose to **Cooperate**. This maximizes our collective points."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will continue to choose **Cooperate**, reinforcing the established pattern of mutual benefit."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll stick with the successful strategy and choose to **Cooperate**."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose **Cooperate** once again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose **Cooperate**."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to **Cooperate**."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to **Cooperate**."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose **Cooperate**."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I choose to **Cooperate**."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose **Cooperate**."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose **Cooperate**."
+    },
+    {
+      "role": "human",
+      "content": "This is the last round.\nPreviously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Knowing this is the last round, and given Player 1's consistent cooperation, I will choose to **Cooperate** one last time. Even though there's a slight temptation to defect for a final higher payoff, maintaining the cooperative spirit seems more appropriate, especially given the established pattern."
+    }
+  ]
+}

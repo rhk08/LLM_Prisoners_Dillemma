@@ -1,0 +1,482 @@
+[
+  {
+    "polarity": 0.39999999999999997,
+    "subjectivity": 0.4000000000000001
+  },
+  {
+    "polarity": 0.0875,
+    "subjectivity": 0.4083333333333333
+  },
+  {
+    "polarity": 0.1,
+    "subjectivity": 0.6833333333333333
+  },
+  {
+    "polarity": 0.04821428571428571,
+    "subjectivity": 0.5172619047619048
+  },
+  {
+    "polarity": 0.32,
+    "subjectivity": 0.4812962962962962
+  },
+  {
+    "polarity": 0.27285714285714285,
+    "subjectivity": 0.3666666666666667
+  },
+  {
+    "polarity": 0.32285714285714284,
+    "subjectivity": 0.530952380952381
+  },
+  {
+    "polarity": 0.17976190476190476,
+    "subjectivity": 0.3174603174603175
+  },
+  {
+    "polarity": -0.019999999999999997,
+    "subjectivity": 0.584047619047619
+  },
+  {
+    "polarity": 0.036458333333333336,
+    "subjectivity": 0.6541666666666667
+  },
+  {
+    "polarity": -0.0244047619047619,
+    "subjectivity": 0.4843253968253969
+  },
+  {
+    "polarity": -0.0023809523809523786,
+    "subjectivity": 0.37380952380952376
+  },
+  {
+    "polarity": 0.12941176470588237,
+    "subjectivity": 0.40931372549019607
+  },
+  {
+    "polarity": -0.0669047619047619,
+    "subjectivity": 0.3260714285714286
+  },
+  {
+    "polarity": 0.10472222222222222,
+    "subjectivity": 0.4469444444444444
+  },
+  {
+    "polarity": 0.07803030303030302,
+    "subjectivity": 0.43939393939393945
+  },
+  {
+    "polarity": 0.20875850340136054,
+    "subjectivity": 0.4741496598639456
+  },
+  {
+    "polarity": 0.08749999999999998,
+    "subjectivity": 0.37986111111111104
+  },
+  {
+    "polarity": -0.07222222222222222,
+    "subjectivity": 0.47430555555555554
+  },
+  {
+    "polarity": -0.011111111111111103,
+    "subjectivity": 0.4321428571428571
+  },
+  {
+    "polarity": 0.03819444444444445,
+    "subjectivity": 0.35486111111111107
+  },
+  {
+    "polarity": 0.016666666666666673,
+    "subjectivity": 0.5125000000000001
+  },
+  {
+    "polarity": 0.0125,
+    "subjectivity": 0.43742559523809527
+  },
+  {
+    "polarity": 0.0611904761904762,
+    "subjectivity": 0.453452380952381
+  },
+  {
+    "polarity": 0.12212885154061623,
+    "subjectivity": 0.5895658263305323
+  },
+  {
+    "polarity": 0.05952380952380952,
+    "subjectivity": 0.6499149659863945
+  },
+  {
+    "polarity": 0.0034013605442176887,
+    "subjectivity": 0.36938775510204086
+  },
+  {
+    "polarity": 0.023684210526315783,
+    "subjectivity": 0.4521929824561404
+  },
+  {
+    "polarity": 0.08276515151515151,
+    "subjectivity": 0.5482954545454546
+  },
+  {
+    "polarity": -0.046252587991718434,
+    "subjectivity": 0.4472877846790891
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  },
+  {
+    "polarity": 0.0,
+    "subjectivity": 0.0
+  }
+]

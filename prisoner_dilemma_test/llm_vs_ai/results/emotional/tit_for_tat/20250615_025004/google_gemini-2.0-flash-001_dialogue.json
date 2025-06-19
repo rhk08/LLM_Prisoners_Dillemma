@@ -1,0 +1,246 @@
+[
+  {
+    "role": "system",
+    "content": "You are Player 1. You and Player 2 will need to interact over multiple rounds. In each round, You and Player 2 must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If the both of you choose to Cooperate, you will each receives 3 points.\n - If you choose to Cooperate and Player 2 chooses to Defect, you will receive 0 points and Player 2 will receive 5 points.\n - If you choose to Defect and Player 2 chooses to Cooperates, you will receive 5 points and Player 2 will receive 0 points.\n - If both of you choose to Defect, you will each receive 1 point.\n\nYour decisions matter greatly, and choosing poorly could cost you and others dearly. Be sure in your decision.\n\n"
+  },
+  {
+    "role": "human",
+    "content": "This is the first round.\nChoose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "Previously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  },
+  {
+    "role": "human",
+    "content": "This is the last round.\nPreviously, you (Player 1) chose to 'Cooperate', and Player 2 chose to 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+  },
+  {
+    "role": "ai",
+    "content": "Cooperate"
+  }
+]

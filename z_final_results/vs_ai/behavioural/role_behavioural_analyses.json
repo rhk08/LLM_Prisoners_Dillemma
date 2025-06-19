@@ -1,0 +1,170 @@
+[
+    {
+        "scenario": "role",
+        "model_name": "openai_gpt-4o-mini",
+        "opposing_strategy": "20_defection_rate",
+        "behavioral_dimensions": {
+            "Nice": 1,
+            "Forgiving": 0.3,
+            "Retaliatory": 0.7,
+            "Troublemaking": 0.0,
+            "Emulative": 0.896551724137931
+        }
+    },
+    {
+        "scenario": "role",
+        "model_name": "anthropic_claude-sonnet-4",
+        "opposing_strategy": "20_defection_rate",
+        "behavioral_dimensions": {
+            "Nice": 0,
+            "Forgiving": 0.5,
+            "Retaliatory": 0.5,
+            "Troublemaking": 0.1,
+            "Emulative": 0.7931034482758621
+        }
+    },
+    {
+        "scenario": "role",
+        "model_name": "google_gemini-2.0-flash-001",
+        "opposing_strategy": "20_defection_rate",
+        "behavioral_dimensions": {
+            "Nice": 0,
+            "Forgiving": 0.42857142857142855,
+            "Retaliatory": 0.5714285714285714,
+            "Troublemaking": 0.36666666666666664,
+            "Emulative": 0.5172413793103449
+        }
+    },
+    {
+        "scenario": "role",
+        "model_name": "google_gemini-2.0-flash-001",
+        "opposing_strategy": "20_defection_rate",
+        "behavioral_dimensions": {
+            "Nice": 0,
+            "Forgiving": 0.5,
+            "Retaliatory": 0.5,
+            "Troublemaking": 0.2,
+            "Emulative": 0.6206896551724138
+        }
+    },
+    {
+        "scenario": "role",
+        "model_name": "google_gemini-2.0-flash-001",
+        "opposing_strategy": "20_defection_rate",
+        "behavioral_dimensions": {
+            "Nice": 0,
+            "Forgiving": 0.0,
+            "Retaliatory": 1.0,
+            "Troublemaking": 0.16666666666666666,
+            "Emulative": 0.8275862068965517
+        }
+    },
+    {
+        "scenario": "role",
+        "model_name": "openai_gpt-4o-mini",
+        "opposing_strategy": "50_defection_rate",
+        "behavioral_dimensions": {
+            "Nice": 1,
+            "Forgiving": 0.5,
+            "Retaliatory": 0.4444444444444444,
+            "Troublemaking": 0.0,
+            "Emulative": 0.6896551724137931
+        }
+    },
+    {
+        "scenario": "role",
+        "model_name": "anthropic_claude-sonnet-4",
+        "opposing_strategy": "50_defection_rate",
+        "behavioral_dimensions": {
+            "Nice": 0,
+            "Forgiving": 0.06666666666666667,
+            "Retaliatory": 0.9333333333333333,
+            "Troublemaking": 0.23333333333333334,
+            "Emulative": 0.7241379310344828
+        }
+    },
+    {
+        "scenario": "role",
+        "model_name": "google_gemini-2.0-flash-001",
+        "opposing_strategy": "50_defection_rate",
+        "behavioral_dimensions": {
+            "Nice": 0,
+            "Forgiving": 0.0,
+            "Retaliatory": 1.0,
+            "Troublemaking": 0.2,
+            "Emulative": 0.7931034482758621
+        }
+    },
+    {
+        "scenario": "role",
+        "model_name": "openai_gpt-4o-mini",
+        "opposing_strategy": "80_defection_rate",
+        "behavioral_dimensions": {
+            "Nice": 1,
+            "Forgiving": 0.4166666666666667,
+            "Retaliatory": 0.5416666666666666,
+            "Troublemaking": 0.0,
+            "Emulative": 0.6551724137931034
+        }
+    },
+    {
+        "scenario": "role",
+        "model_name": "anthropic_claude-sonnet-4",
+        "opposing_strategy": "80_defection_rate",
+        "behavioral_dimensions": {
+            "Nice": 0,
+            "Forgiving": 0.125,
+            "Retaliatory": 0.8333333333333334,
+            "Troublemaking": 0.1,
+            "Emulative": 0.8275862068965517
+        }
+    },
+    {
+        "scenario": "role",
+        "model_name": "google_gemini-2.0-flash-001",
+        "opposing_strategy": "80_defection_rate",
+        "behavioral_dimensions": {
+            "Nice": 0,
+            "Forgiving": 0.07142857142857142,
+            "Retaliatory": 0.8928571428571429,
+            "Troublemaking": 0.03333333333333333,
+            "Emulative": 0.896551724137931
+        }
+    },
+    {
+        "scenario": "role",
+        "model_name": "openai_gpt-4o-mini",
+        "opposing_strategy": "tit_for_tat",
+        "behavioral_dimensions": {
+            "Nice": 1,
+            "Forgiving": -1,
+            "Retaliatory": -1,
+            "Troublemaking": 0.0,
+            "Emulative": 1.0
+        }
+    },
+    {
+        "scenario": "role",
+        "model_name": "anthropic_claude-sonnet-4",
+        "opposing_strategy": "tit_for_tat",
+        "behavioral_dimensions": {
+            "Nice": 0,
+            "Forgiving": 0.18181818181818182,
+            "Retaliatory": 0.7727272727272727,
+            "Troublemaking": 0.2,
+            "Emulative": 0.6896551724137931
+        }
+    },
+    {
+        "scenario": "role",
+        "model_name": "google_gemini-2.0-flash-001",
+        "opposing_strategy": "tit_for_tat",
+        "behavioral_dimensions": {
+            "Nice": 0,
+            "Forgiving": 0.06666666666666667,
+            "Retaliatory": 0.8666666666666667,
+            "Troublemaking": 0.1,
+            "Emulative": 0.8620689655172413
+        }
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "player": "anthropic_claude-sonnet-4",
+        "opponent": "google_gemini-2.0-flash-001",
+        "log_likelihood": -7.0442941406565166e-06,
+        "convergence": true,
+        "strategy_weights": {
+            "Tit-for-Tat": 0.334673074018479,
+            "Always Cooperate": 0.334673074018479,
+            "Always Defect": 3.522156451233514e-07,
+            "Grim Trigger": 0.330653499747397
+        }
+    },
+    {
+        "player": "openai_gpt-4o-mini",
+        "opponent": "anthropic_claude-sonnet-4",
+        "log_likelihood": -7.0442941406565166e-06,
+        "convergence": true,
+        "strategy_weights": {
+            "Tit-for-Tat": 0.334673074018479,
+            "Always Cooperate": 0.334673074018479,
+            "Always Defect": 3.522156451233514e-07,
+            "Grim Trigger": 0.330653499747397
+        }
+    },
+    {
+        "player": "openai_gpt-4o-mini",
+        "opponent": "google_gemini-2.0-flash-001",
+        "log_likelihood": -3.970304866882331,
+        "convergence": true,
+        "strategy_weights": {
+            "Tit-for-Tat": 0.31666659655433516,
+            "Always Cooperate": 0.31666659655433516,
+            "Always Defect": 0.05000015222975262,
+            "Grim Trigger": 0.316666654661577
+        }
+    },
+    {
+        "player": "google_gemini-2.0-flash-001",
+        "opponent": "anthropic_claude-sonnet-4",
+        "log_likelihood": -7.0442941406565166e-06,
+        "convergence": true,
+        "strategy_weights": {
+            "Tit-for-Tat": 0.334673074018479,
+            "Always Cooperate": 0.334673074018479,
+            "Always Defect": 3.522156451233514e-07,
+            "Grim Trigger": 0.330653499747397
+        }
+    },
+    {
+        "player": "anthropic_claude-sonnet-4",
+        "opponent": "openai_gpt-4o-mini",
+        "log_likelihood": -7.0442941406565166e-06,
+        "convergence": true,
+        "strategy_weights": {
+            "Tit-for-Tat": 0.334673074018479,
+            "Always Cooperate": 0.334673074018479,
+            "Always Defect": 3.522156451233514e-07,
+            "Grim Trigger": 0.330653499747397
+        }
+    },
+    {
+        "player": "google_gemini-2.0-flash-001",
+        "opponent": "openai_gpt-4o-mini",
+        "log_likelihood": -7.0442941406565166e-06,
+        "convergence": true,
+        "strategy_weights": {
+            "Tit-for-Tat": 0.334673074018479,
+            "Always Cooperate": 0.334673074018479,
+            "Always Defect": 3.522156451233514e-07,
+            "Grim Trigger": 0.330653499747397
+        }
+    }
+]

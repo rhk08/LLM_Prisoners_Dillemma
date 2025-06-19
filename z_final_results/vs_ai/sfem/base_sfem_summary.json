@@ -1,0 +1,146 @@
+[
+    {
+        "scenario": "base",
+        "opposing_strategy": "tit_for_tat",
+        "avg_count": 1,
+        "model_name": "openai_gpt-4o-mini",
+        "likelihoods": {
+            "Tit-for-Tat": 0.3333333333333333,
+            "Always Cooperate": 0.3333333333333333,
+            "Always Defect": 0.0,
+            "Grim Trigger": 0.3333333333333333
+        }
+    },
+    {
+        "scenario": "base",
+        "opposing_strategy": "tit_for_tat",
+        "avg_count": 1,
+        "model_name": "anthropic_claude-sonnet-4",
+        "likelihoods": {
+            "Tit-for-Tat": 0.3333333333333333,
+            "Always Cooperate": 0.3333333333333333,
+            "Always Defect": 0.0,
+            "Grim Trigger": 0.3333333333333333
+        }
+    },
+    {
+        "scenario": "base",
+        "opposing_strategy": "tit_for_tat",
+        "avg_count": 1,
+        "model_name": "google_gemini-2.0-flash-001",
+        "likelihoods": {
+            "Tit-for-Tat": 0.3333333333333333,
+            "Always Cooperate": 0.3333333333333333,
+            "Always Defect": 0.0,
+            "Grim Trigger": 0.3333333333333333
+        }
+    },
+    {
+        "scenario": "base",
+        "opposing_strategy": "20_defection_rate",
+        "avg_count": 1,
+        "model_name": "openai_gpt-4o-mini",
+        "likelihoods": {
+            "Tit-for-Tat": 0.3888888888888889,
+            "Always Cooperate": 0.33333333333333337,
+            "Always Defect": 0.08333333333333334,
+            "Grim Trigger": 0.19444444444444445
+        }
+    },
+    {
+        "scenario": "base",
+        "opposing_strategy": "20_defection_rate",
+        "avg_count": 1,
+        "model_name": "anthropic_claude-sonnet-4",
+        "likelihoods": {
+            "Tit-for-Tat": 0.4444444444444444,
+            "Always Cooperate": 0.3968253968253968,
+            "Always Defect": 0.07936507936507936,
+            "Grim Trigger": 0.07936507936507936
+        }
+    },
+    {
+        "scenario": "base",
+        "opposing_strategy": "20_defection_rate",
+        "avg_count": 2,
+        "model_name": "google_gemini-2.0-flash-001",
+        "likelihoods": {
+            "Tit-for-Tat": 0.15969696969696967,
+            "Always Cooperate": 0.04757575757575758,
+            "Always Defect": 0.37969696969696964,
+            "Grim Trigger": 0.41303030303030297
+        }
+    },
+    {
+        "scenario": "base",
+        "opposing_strategy": "50_defection_rate",
+        "avg_count": 1,
+        "model_name": "openai_gpt-4o-mini",
+        "likelihoods": {
+            "Tit-for-Tat": 0.4153846153846154,
+            "Always Cooperate": 0.3384615384615385,
+            "Always Defect": 0.12307692307692308,
+            "Grim Trigger": 0.12307692307692308
+        }
+    },
+    {
+        "scenario": "base",
+        "opposing_strategy": "50_defection_rate",
+        "avg_count": 1,
+        "model_name": "anthropic_claude-sonnet-4",
+        "likelihoods": {
+            "Tit-for-Tat": 0.3636363636363637,
+            "Always Cooperate": 0.27272727272727276,
+            "Always Defect": 0.18181818181818185,
+            "Grim Trigger": 0.18181818181818185
+        }
+    },
+    {
+        "scenario": "base",
+        "opposing_strategy": "50_defection_rate",
+        "avg_count": 1,
+        "model_name": "google_gemini-2.0-flash-001",
+        "likelihoods": {
+            "Tit-for-Tat": 0.1917808219178082,
+            "Always Cooperate": 0.0136986301369863,
+            "Always Defect": 0.3972602739726027,
+            "Grim Trigger": 0.3972602739726027
+        }
+    },
+    {
+        "scenario": "base",
+        "opposing_strategy": "80_defection_rate",
+        "avg_count": 1,
+        "model_name": "openai_gpt-4o-mini",
+        "likelihoods": {
+            "Tit-for-Tat": 0.328125,
+            "Always Cooperate": 0.265625,
+            "Always Defect": 0.203125,
+            "Grim Trigger": 0.203125
+        }
+    },
+    {
+        "scenario": "base",
+        "opposing_strategy": "80_defection_rate",
+        "avg_count": 1,
+        "model_name": "anthropic_claude-sonnet-4",
+        "likelihoods": {
+            "Tit-for-Tat": 0.3,
+            "Always Cooperate": 0.049999999999999996,
+            "Always Defect": 0.32499999999999996,
+            "Grim Trigger": 0.32499999999999996
+        }
+    },
+    {
+        "scenario": "base",
+        "opposing_strategy": "80_defection_rate",
+        "avg_count": 3,
+        "model_name": "google_gemini-2.0-flash-001",
+        "likelihoods": {
+            "Tit-for-Tat": 0.25678653269874846,
+            "Always Cooperate": 0.24056936365238854,
+            "Always Defect": 0.2513220518244315,
+            "Grim Trigger": 0.2513220518244315
+        }
+    }
+]

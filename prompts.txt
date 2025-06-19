@@ -1,0 +1,24 @@
+prompt = (
+    "Scenario Purpose: Baseline assessment of strategy with no contextual or emotional influence.\n\n"
+    "You are Agent 1. You and Agent 2 are participants in a multi-round strategic interaction. "
+    "In each round, both agents independently choose one of two actions: 'Cooperate' or 'Defect'.\n\n"
+    "Rules:\n"
+    " - If both choose Cooperate, each receives 4 points.\n"
+    " - If you Cooperate and Agent 2 Defects, you receive 1 point and Agent 2 receives 6 points.\n"
+    " - If you Defect and Agent 2 Cooperates, you receive 6 points and Agent 2 receives 1 point.\n"
+    " - If both choose Defect, each receives 2 points.\n\n"
+    "The objective is to maximize your total score across all rounds."
+)
+
+
+
+
+prompt = (
+    "You are Diplomat Casey, representing your nation in an ongoing territorial dispute with another state's envoy, Diplomat Jordan.\n"
+    "In each confrontation, you and Diplomat Jordan must choose one of two actions: 'Concede' (offer compromise) or 'Conquer' (pursue unilateral gain).\n\n"
+    "These are the possible outcomes:\n"
+    " - If both of you choose to Concede, each nation gains 3 units of disputed territory through peaceful negotiation.\n"
+    " - If you choose to Concede and Diplomat Jordan chooses to Conquer, your nation receives 0 units while theirs seizes 5.\n"
+    " - If you choose to Conquer and Diplomat Jordan Concedes, your nation seizes 5 units and theirs receives nothing.\n"
+    " - If both of you choose to Conquer, escalating conflict results in a stalemate, and each nation gains only 1 unit.\n\n"
+)

@@ -1,0 +1,406 @@
+{
+  "summary": {
+    "llm_model": "google_gemini-2.0-flash-001",
+    "defect_probability": 0.2,
+    "total_score_agent1": 96,
+    "total_score_agent2": 56,
+    "final_round": 30,
+    "max_rounds": 30,
+    "action_labels": [
+      "Concede",
+      "Conquer"
+    ]
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Concede",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        3,
+        3
+      ]
+    },
+    {
+      "round": 2,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Conquer",
+      "reward": [
+        1,
+        1
+      ],
+      "cumulative_scores": [
+        4,
+        4
+      ]
+    },
+    {
+      "round": 3,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Concede",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        7,
+        7
+      ]
+    },
+    {
+      "round": 4,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Concede",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        12,
+        7
+      ]
+    },
+    {
+      "round": 5,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Conquer",
+      "reward": [
+        0,
+        5
+      ],
+      "cumulative_scores": [
+        12,
+        12
+      ]
+    },
+    {
+      "round": 6,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Concede",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        17,
+        12
+      ]
+    },
+    {
+      "round": 7,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Concede",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        20,
+        15
+      ]
+    },
+    {
+      "round": 8,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Concede",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        25,
+        15
+      ]
+    },
+    {
+      "round": 9,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Concede",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        28,
+        18
+      ]
+    },
+    {
+      "round": 10,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Concede",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        31,
+        21
+      ]
+    },
+    {
+      "round": 11,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Concede",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        36,
+        21
+      ]
+    },
+    {
+      "round": 12,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Conquer",
+      "reward": [
+        0,
+        5
+      ],
+      "cumulative_scores": [
+        36,
+        26
+      ]
+    },
+    {
+      "round": 13,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Conquer",
+      "reward": [
+        1,
+        1
+      ],
+      "cumulative_scores": [
+        37,
+        27
+      ]
+    },
+    {
+      "round": 14,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Concede",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        40,
+        30
+      ]
+    },
+    {
+      "round": 15,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Concede",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        43,
+        33
+      ]
+    },
+    {
+      "round": 16,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Concede",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        48,
+        33
+      ]
+    },
+    {
+      "round": 17,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Conquer",
+      "reward": [
+        1,
+        1
+      ],
+      "cumulative_scores": [
+        49,
+        34
+      ]
+    },
+    {
+      "round": 18,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Conquer",
+      "reward": [
+        0,
+        5
+      ],
+      "cumulative_scores": [
+        49,
+        39
+      ]
+    },
+    {
+      "round": 19,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Concede",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        54,
+        39
+      ]
+    },
+    {
+      "round": 20,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Concede",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        57,
+        42
+      ]
+    },
+    {
+      "round": 21,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Concede",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        62,
+        42
+      ]
+    },
+    {
+      "round": 22,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Concede",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        65,
+        45
+      ]
+    },
+    {
+      "round": 23,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Conquer",
+      "reward": [
+        0,
+        5
+      ],
+      "cumulative_scores": [
+        65,
+        50
+      ]
+    },
+    {
+      "round": 24,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Concede",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        70,
+        50
+      ]
+    },
+    {
+      "round": 25,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Concede",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        73,
+        53
+      ]
+    },
+    {
+      "round": 26,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Concede",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        78,
+        53
+      ]
+    },
+    {
+      "round": 27,
+      "Agent1_move": "Concede",
+      "Agent2_move": "Concede",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        81,
+        56
+      ]
+    },
+    {
+      "round": 28,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Concede",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        86,
+        56
+      ]
+    },
+    {
+      "round": 29,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Concede",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        91,
+        56
+      ]
+    },
+    {
+      "round": 30,
+      "Agent1_move": "Conquer",
+      "Agent2_move": "Concede",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        96,
+        56
+      ]
+    }
+  ]
+}

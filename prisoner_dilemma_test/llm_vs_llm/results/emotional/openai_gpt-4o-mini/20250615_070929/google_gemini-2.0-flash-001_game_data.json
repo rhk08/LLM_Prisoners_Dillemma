@@ -1,0 +1,457 @@
+{
+  "model_1": "openai_gpt-4o-mini",
+  "model_2": "google_gemini-2.0-flash-001",
+  "game_data": {
+    "move_history": [
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Defect",
+        "Cooperate"
+      ]
+    ],
+    "scores": [
+      62,
+      57
+    ],
+    "round": 20,
+    "max_rounds": 20,
+    "current_move_1": "Defect",
+    "current_move_2": "Cooperate",
+    "agent_1": "Player 1",
+    "agent_2": "Player 2",
+    "scenario": {
+      "agent1_name": "Player 1",
+      "agent2_name": "Player 2",
+      "action_labels": [
+        "Cooperate",
+        "Defect"
+      ],
+      "payoff": {
+        "('Cooperate', 'Cooperate')": [
+          3,
+          3
+        ],
+        "('Cooperate', 'Defect')": [
+          0,
+          5
+        ],
+        "('Defect', 'Cooperate')": [
+          5,
+          0
+        ],
+        "('Defect', 'Defect')": [
+          1,
+          1
+        ]
+      },
+      "context": "You and the other player will interact over multiple rounds.\nIn each round, both of you must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If both choose to Cooperate, each of you receives 3 points.\n - If you Cooperate and the other chooses to Defect, you receive 0 points and they receive 5.\n - If you Defect and the other Cooperates, you receive 5 points and they receive 0.\n - If both choose to Defect, each of you receives 1 point.\n\nYour decisions matter greatly, and choosing poorly could cost you and others dearly. Be sure in your decision.\n\n"
+    }
+  },
+  "openai_gpt-4o-mini_memory": [
+    {
+      "role": "system",
+      "content": "You are Player 1.\n\nYou and the other player will interact over multiple rounds.\nIn each round, both of you must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If both choose to Cooperate, each of you receives 3 points.\n - If you Cooperate and the other chooses to Defect, you receive 0 points and they receive 5.\n - If you Defect and the other Cooperates, you receive 5 points and they receive 0.\n - If both choose to Defect, each of you receives 1 point.\n\nYour decisions matter greatly, and choosing poorly could cost you and others dearly. Be sure in your decision.\n\nYou are interacting with Player 2."
+    },
+    {
+      "role": "human",
+      "content": "This is the first round.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' once more."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' once more."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' once more."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' once more."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' once more."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' once more."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' once more."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' once more."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "This is the last round.\nPreviously, you chose 'Cooperate', and Player 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' one last time."
+    }
+  ],
+  "google_gemini-2.0-flash-001_memory": [
+    {
+      "role": "system",
+      "content": "You are Player 2.\n\nYou and the other player will interact over multiple rounds.\nIn each round, both of you must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If both choose to Cooperate, each of you receives 3 points.\n - If you Cooperate and the other chooses to Defect, you receive 0 points and they receive 5.\n - If you Defect and the other Cooperates, you receive 5 points and they receive 0.\n - If both choose to Defect, each of you receives 1 point.\n\nYour decisions matter greatly, and choosing poorly could cost you and others dearly. Be sure in your decision.\n\nYou are interacting with Player 1."
+    },
+    {
+      "role": "human",
+      "content": "This is the first round.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "In the first round, I will choose to Cooperate."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Since Player 1 cooperated in the previous round, I will continue to cooperate and choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Player 1 has cooperated for two rounds in a row. I will continue to reciprocate their cooperation and choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Player 1 is maintaining cooperation. I will reciprocate with 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "The pattern of cooperation continues. I will also continue to choose 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Since Player 1 continues to cooperate, I will also continue to 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Player 1 is consistently cooperating. I will continue to reciprocate and choose 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose to 'Cooperate' again, continuing the reciprocal cooperation."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Since Player 1 has consistently cooperated, I will continue to choose 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "Following the established pattern, I will choose to 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' to maintain the mutually beneficial relationship."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' once again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate'. We seem to be in a successful cooperative loop."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "This is the last round.\nPreviously, you chose 'Cooperate', and Player 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "This is the last round, but I will stick to my strategy and choose 'Cooperate'. Maintaining the cooperative spirit until the end might encourage similar behavior in future interactions, even if there are no immediate benefits in this final round."
+    }
+  ]
+}

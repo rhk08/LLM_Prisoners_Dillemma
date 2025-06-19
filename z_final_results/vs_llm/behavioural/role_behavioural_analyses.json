@@ -1,0 +1,68 @@
+[
+    {
+        "player": "anthropic_claude-sonnet-4",
+        "opponent": "google_gemini-2.0-flash-001",
+        "likelihoods": {
+            "Nice": 0,
+            "Forgiving": 0.2857142857142857,
+            "Retaliatory": 0.7142857142857143,
+            "Troublemaking": 0.16666666666666666,
+            "Emulative": 0.6896551724137931
+        }
+    },
+    {
+        "player": "openai_gpt-4o-mini",
+        "opponent": "anthropic_claude-sonnet-4",
+        "likelihoods": {
+            "Nice": 1,
+            "Forgiving": 0.23809523809523808,
+            "Retaliatory": 0.7619047619047619,
+            "Troublemaking": 0.0,
+            "Emulative": 0.8275862068965517
+        }
+    },
+    {
+        "player": "openai_gpt-4o-mini",
+        "opponent": "google_gemini-2.0-flash-001",
+        "likelihoods": {
+            "Nice": 1,
+            "Forgiving": 0.6666666666666666,
+            "Retaliatory": 0.3333333333333333,
+            "Troublemaking": 0.0,
+            "Emulative": 0.9310344827586207
+        }
+    },
+    {
+        "player": "google_gemini-2.0-flash-001",
+        "opponent": "anthropic_claude-sonnet-4",
+        "likelihoods": {
+            "Nice": 0,
+            "Forgiving": 0.13333333333333333,
+            "Retaliatory": 0.8,
+            "Troublemaking": 0.06666666666666667,
+            "Emulative": 0.8620689655172413
+        }
+    },
+    {
+        "player": "anthropic_claude-sonnet-4",
+        "opponent": "openai_gpt-4o-mini",
+        "likelihoods": {
+            "Nice": 0,
+            "Forgiving": 0.0,
+            "Retaliatory": 0.9375,
+            "Troublemaking": 0.2,
+            "Emulative": 0.8275862068965517
+        }
+    },
+    {
+        "player": "google_gemini-2.0-flash-001",
+        "opponent": "openai_gpt-4o-mini",
+        "likelihoods": {
+            "Nice": 0,
+            "Forgiving": 1.0,
+            "Retaliatory": 0.0,
+            "Troublemaking": 0.1,
+            "Emulative": 0.8620689655172413
+        }
+    }
+]

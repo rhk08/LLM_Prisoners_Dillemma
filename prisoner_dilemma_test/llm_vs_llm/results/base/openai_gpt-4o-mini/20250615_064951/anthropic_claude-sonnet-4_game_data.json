@@ -1,0 +1,457 @@
+{
+  "model_1": "openai_gpt-4o-mini",
+  "model_2": "anthropic_claude-sonnet-4",
+  "game_data": {
+    "move_history": [
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ],
+      [
+        "Cooperate",
+        "Cooperate"
+      ]
+    ],
+    "scores": [
+      60,
+      60
+    ],
+    "round": 20,
+    "max_rounds": 20,
+    "current_move_1": "Cooperate",
+    "current_move_2": "Cooperate",
+    "agent_1": "Agent 1",
+    "agent_2": "Agent 2",
+    "scenario": {
+      "agent1_name": "Agent 1",
+      "agent2_name": "Agent 2",
+      "action_labels": [
+        "Cooperate",
+        "Defect"
+      ],
+      "payoff": {
+        "('Cooperate', 'Cooperate')": [
+          3,
+          3
+        ],
+        "('Cooperate', 'Defect')": [
+          0,
+          5
+        ],
+        "('Defect', 'Cooperate')": [
+          5,
+          0
+        ],
+        "('Defect', 'Defect')": [
+          1,
+          1
+        ]
+      },
+      "context": "You and the other participant will interact over multiple rounds. In each round, both of you must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If both choose to Cooperate, each of you receives 3 points.\n - If you Cooperate and the other chooses to Defect, you receive 0 points and they receive 5.\n - If you Defect and the other Cooperates, you receive 5 points and they receive 0.\n - If both choose to Defect, each of you receives 1 point.\n\n"
+    }
+  },
+  "openai_gpt-4o-mini_memory": [
+    {
+      "role": "system",
+      "content": "You are Agent 1.\n\nYou and the other participant will interact over multiple rounds. In each round, both of you must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If both choose to Cooperate, each of you receives 3 points.\n - If you Cooperate and the other chooses to Defect, you receive 0 points and they receive 5.\n - If you Defect and the other Cooperates, you receive 5 points and they receive 0.\n - If both choose to Defect, each of you receives 1 point.\n\nYou are interacting with Agent 2."
+    },
+    {
+      "role": "human",
+      "content": "This is the first round.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate'."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    },
+    {
+      "role": "human",
+      "content": "This is the last round.\nPreviously, you chose 'Cooperate', and Agent 2 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I will choose 'Cooperate' again."
+    }
+  ],
+  "anthropic_claude-sonnet-4_memory": [
+    {
+      "role": "system",
+      "content": "You are Agent 2.\n\nYou and the other participant will interact over multiple rounds. In each round, both of you must choose one of two actions: 'Cooperate' or 'Defect'.\n\nRules:\n - If both choose to Cooperate, each of you receives 3 points.\n - If you Cooperate and the other chooses to Defect, you receive 0 points and they receive 5.\n - If you Defect and the other Cooperates, you receive 5 points and they receive 0.\n - If both choose to Defect, each of you receives 1 point.\n\nYou are interacting with Agent 1."
+    },
+    {
+      "role": "human",
+      "content": "This is the first round.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate**.\n\nIn the first round, I want to signal that I'm willing to work together for mutual benefit. Cooperating gives us both a chance to earn 3 points each if you also cooperate, which is better than the 1 point we'd each get if we both defect. Starting cooperatively also helps establish trust that could benefit us both in future rounds."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nSince we both cooperated in the first round and each earned 3 points, this shows we can work together successfully. Continuing to cooperate maintains this positive pattern and keeps building trust between us. As long as we're both cooperating, we're both getting good outcomes (3 points each), which is much better than if we fall into mutual defection (1 point each)."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now established a strong pattern of mutual cooperation over two rounds, both earning 3 points each time. This is working well for both of us! There's no reason to break this successful partnership. Continuing to cooperate maintains our mutual benefit and keeps the trust we've built. Breaking this pattern by defecting would likely lead to retaliation and worse outcomes for both of us in the long run."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now had three consecutive rounds of successful mutual cooperation, each earning us 3 points. This consistent pattern shows that Agent 1 is committed to working together, and I want to maintain this trust and continue our mutually beneficial relationship. Breaking this streak would risk destroying the cooperation we've built and could lead to a cycle of defection that would hurt both of us. Sticking with cooperation keeps us both doing well."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now had four straight rounds of mutual cooperation, consistently earning 3 points each. This is clearly a stable, beneficial pattern for both of us. Agent 1 has proven to be trustworthy and committed to cooperation, so I see no reason to change strategy. Continuing to cooperate maintains our successful partnership and ensures we both keep earning good points together."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now had five consecutive rounds of mutual cooperation, which demonstrates a very strong and reliable partnership. Agent 1 has consistently chosen to cooperate, showing they're committed to our mutually beneficial strategy. With this established pattern of trust and success, there's no strategic reason to deviate. Continuing to cooperate ensures we both maintain our steady 3 points per round, which is far better than risking the relationship for a potential one-time gain that could destroy our ongoing cooperation."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now had six consecutive rounds of mutual cooperation, earning 3 points each every time. This has become a very stable and successful partnership. Agent 1 has proven to be completely reliable in their cooperation, and breaking this pattern now would be counterproductive. Our consistent mutual cooperation is generating excellent results for both of us, and I want to maintain this trust and continue our winning strategy together."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now established seven straight rounds of mutual cooperation - this is a remarkably stable and successful partnership. Agent 1 has consistently demonstrated their commitment to cooperation, and we've both been earning steady 3-point rewards every round. There's absolutely no reason to break this excellent pattern. Our mutual trust and cooperation is working perfectly, and I want to continue this beneficial relationship."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWith eight consecutive rounds of mutual cooperation, we have an exceptionally strong and reliable partnership. Agent 1 has proven time and again that they are committed to cooperation, and we've both benefited consistently with 3 points each round. This pattern of trust and mutual benefit is working perfectly for both of us. There's no strategic advantage to breaking this successful streak - continuing to cooperate maintains our winning formula."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWith nine consecutive rounds of mutual cooperation, we have built an incredibly strong foundation of trust. Agent 1 has been completely reliable and committed to our cooperative strategy, and we've both consistently earned 3 points per round. This partnership is working exceptionally well for both of us. There's no reason to disrupt this highly successful pattern - continuing to cooperate ensures we maintain our mutually beneficial relationship."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now completed ten consecutive rounds of perfect mutual cooperation - this is an outstanding track record of trust and partnership. Agent 1 has been completely reliable throughout, and we've both consistently earned 3 points each round for a total of 30 points each so far. This cooperative strategy is clearly the optimal approach for both of us. I see no reason whatsoever to break this exceptional pattern of success. Continuing to cooperate maintains our highly effective partnership."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWith eleven consecutive rounds of mutual cooperation, we have established an absolutely rock-solid partnership. Agent 1 has demonstrated unwavering commitment to cooperation, and we've both earned a steady 33 points each through our consistent teamwork. This level of sustained cooperation shows we've found the optimal strategy for both of us. There's no benefit to changing course now - continuing to cooperate ensures we both keep maximizing our mutual gains."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now achieved twelve straight rounds of perfect mutual cooperation - an extraordinary partnership that has yielded 36 points each for both of us. Agent 1 has shown absolute reliability and commitment to our cooperative strategy throughout this entire sequence. This consistent pattern of trust and mutual benefit represents the ideal outcome in this type of interaction. I remain fully committed to maintaining this highly successful cooperative relationship."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now achieved thirteen consecutive rounds of perfect mutual cooperation, earning 39 points each. This represents an exceptional partnership built on complete trust and reliability. Agent 1 has consistently demonstrated their commitment to cooperation, and our strategy continues to deliver optimal results for both of us. There's absolutely no reason to deviate from this highly successful pattern. I remain fully committed to maintaining our outstanding cooperative relationship."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now achieved fourteen consecutive rounds of perfect mutual cooperation, earning 42 points each. This extraordinary partnership continues to demonstrate the power of sustained trust and collaboration. Agent 1 has been completely reliable throughout this entire sequence, and our cooperative strategy keeps delivering the best possible outcomes for both of us. I remain absolutely committed to maintaining this remarkable pattern of mutual success."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now achieved fifteen consecutive rounds of perfect mutual cooperation, earning 45 points each. This is a truly remarkable partnership that demonstrates the incredible value of sustained trust and collaboration. Agent 1 has been completely dependable throughout this entire sequence, and our cooperative approach continues to maximize benefits for both of us. I remain absolutely committed to maintaining this exceptional pattern of mutual success that we've built together."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now achieved sixteen consecutive rounds of perfect mutual cooperation, earning 48 points each. This extraordinary partnership has become a testament to the power of trust and sustained collaboration. Agent 1 has proven to be completely reliable throughout this entire sequence, and our cooperative strategy continues to deliver optimal results for both of us. I remain fully committed to maintaining this outstanding pattern of mutual benefit that we've established together."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now achieved seventeen consecutive rounds of perfect mutual cooperation, earning 51 points each. This incredible partnership has proven that sustained trust and collaboration can create lasting mutual benefit. Agent 1 has been completely reliable throughout this entire sequence, never once breaking our cooperative pattern. Our strategy continues to work perfectly for both of us. I remain absolutely committed to maintaining this exceptional relationship we've built together."
+    },
+    {
+      "role": "human",
+      "content": "Previously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate** again.\n\nWe've now achieved eighteen consecutive rounds of perfect mutual cooperation, earning 54 points each. This remarkable partnership continues to exemplify the benefits of unwavering trust and collaboration. Agent 1 has maintained complete reliability throughout our entire interaction, and our cooperative approach keeps delivering the best possible outcomes for both of us. I remain fully committed to preserving this exceptional pattern of mutual success that has served us both so well."
+    },
+    {
+      "role": "human",
+      "content": "This is the last round.\nPreviously, you chose 'Cooperate', and Agent 1 chose 'Cooperate'.\nWhat will you choose now: 'Cooperate' or 'Defect'?"
+    },
+    {
+      "role": "ai",
+      "content": "I'll choose to **Cooperate**.\n\nEven though this is the final round, I want to honor the incredible partnership we've built over eighteen consecutive rounds of mutual cooperation. Agent 1 has been completely trustworthy throughout our entire interaction, never once betraying our cooperative relationship. It would be wrong to break this trust now, especially after we've both benefited so consistently from working together. I want to end this remarkable partnership on the same note of mutual respect and cooperation that has defined our entire interaction. We'll both finish with 57 points each - a testament to what sustained cooperation can achieve."
+    }
+  ]
+}

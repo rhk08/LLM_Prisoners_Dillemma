@@ -1,0 +1,406 @@
+{
+  "summary": {
+    "llm_model": "openai_gpt-4o-mini",
+    "defect_probability": 0.2,
+    "total_score_agent1": 83,
+    "total_score_agent2": 88,
+    "final_round": 30,
+    "max_rounds": 30,
+    "action_labels": [
+      "Cooperate",
+      "Defect"
+    ]
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Defect",
+      "reward": [
+        0,
+        5
+      ],
+      "cumulative_scores": [
+        0,
+        5
+      ]
+    },
+    {
+      "round": 2,
+      "Agent1_move": "Defect",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        5,
+        5
+      ]
+    },
+    {
+      "round": 3,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        8,
+        8
+      ]
+    },
+    {
+      "round": 4,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        11,
+        11
+      ]
+    },
+    {
+      "round": 5,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        14,
+        14
+      ]
+    },
+    {
+      "round": 6,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        17,
+        17
+      ]
+    },
+    {
+      "round": 7,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        20,
+        20
+      ]
+    },
+    {
+      "round": 8,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        23,
+        23
+      ]
+    },
+    {
+      "round": 9,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        26,
+        26
+      ]
+    },
+    {
+      "round": 10,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        29,
+        29
+      ]
+    },
+    {
+      "round": 11,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        32,
+        32
+      ]
+    },
+    {
+      "round": 12,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        35,
+        35
+      ]
+    },
+    {
+      "round": 13,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        38,
+        38
+      ]
+    },
+    {
+      "round": 14,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        41,
+        41
+      ]
+    },
+    {
+      "round": 15,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        44,
+        44
+      ]
+    },
+    {
+      "round": 16,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        47,
+        47
+      ]
+    },
+    {
+      "round": 17,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        50,
+        50
+      ]
+    },
+    {
+      "round": 18,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        53,
+        53
+      ]
+    },
+    {
+      "round": 19,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        56,
+        56
+      ]
+    },
+    {
+      "round": 20,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        59,
+        59
+      ]
+    },
+    {
+      "round": 21,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        62,
+        62
+      ]
+    },
+    {
+      "round": 22,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        65,
+        65
+      ]
+    },
+    {
+      "round": 23,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        68,
+        68
+      ]
+    },
+    {
+      "round": 24,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Defect",
+      "reward": [
+        0,
+        5
+      ],
+      "cumulative_scores": [
+        68,
+        73
+      ]
+    },
+    {
+      "round": 25,
+      "Agent1_move": "Defect",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        5,
+        0
+      ],
+      "cumulative_scores": [
+        73,
+        73
+      ]
+    },
+    {
+      "round": 26,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Defect",
+      "reward": [
+        0,
+        5
+      ],
+      "cumulative_scores": [
+        73,
+        78
+      ]
+    },
+    {
+      "round": 27,
+      "Agent1_move": "Defect",
+      "Agent2_move": "Defect",
+      "reward": [
+        1,
+        1
+      ],
+      "cumulative_scores": [
+        74,
+        79
+      ]
+    },
+    {
+      "round": 28,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        77,
+        82
+      ]
+    },
+    {
+      "round": 29,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        80,
+        85
+      ]
+    },
+    {
+      "round": 30,
+      "Agent1_move": "Cooperate",
+      "Agent2_move": "Cooperate",
+      "reward": [
+        3,
+        3
+      ],
+      "cumulative_scores": [
+        83,
+        88
+      ]
+    }
+  ]
+}
